@@ -1,0 +1,12 @@
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\bin\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.deps.json
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\bin\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\bin\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\refint\YouAre-WebEnd.ServiceDefaults.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\ref\YouAre-WebEnd.ServiceDefaults.dll

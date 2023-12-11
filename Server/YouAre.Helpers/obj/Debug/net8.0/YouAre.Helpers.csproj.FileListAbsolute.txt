@@ -1,0 +1,15 @@
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\bin\Debug\net8.0\YouAre.Helpers.deps.json
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\bin\Debug\net8.0\YouAre.Helpers.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\bin\Debug\net8.0\YouAre.Helpers.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\bin\Debug\net8.0\YouAre.Domain.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\bin\Debug\net8.0\YouAre.Domain.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.csproj.CopyComplete
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\refint\YouAre.Helpers.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\YouAre.Helpers.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Helpers\obj\Debug\net8.0\ref\YouAre.Helpers.dll
