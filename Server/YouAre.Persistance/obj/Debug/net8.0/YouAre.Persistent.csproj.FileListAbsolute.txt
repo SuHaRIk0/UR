@@ -1,0 +1,15 @@
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\bin\Debug\net8.0\YouAre.Persistent.deps.json
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\bin\Debug\net8.0\YouAre.Persistent.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\bin\Debug\net8.0\YouAre.Persistent.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\bin\Debug\net8.0\YouAre.Domain.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\bin\Debug\net8.0\YouAre.Domain.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.csproj.CopyComplete
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\refint\YouAre.Persistent.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Persistance\obj\Debug\net8.0\ref\YouAre.Persistent.dll

@@ -1,0 +1,12 @@
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\bin\Debug\net8.0\YouAre.Domain.deps.json
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\bin\Debug\net8.0\YouAre.Domain.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\bin\Debug\net8.0\YouAre.Domain.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.AssemblyInfo.cs
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\refint\YouAre.Domain.dll
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.pdb
+C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\ref\YouAre.Domain.dll
