@@ -1,0 +1,6 @@
+D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainDesign.csproj.AssemblyReference.cache
+D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\LoginPage.g.cs
+D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainWindow.g.cs
+D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\App.g.cs
+D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainDesign_MarkupCompile.cache
+D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainDesign_MarkupCompile.lref
