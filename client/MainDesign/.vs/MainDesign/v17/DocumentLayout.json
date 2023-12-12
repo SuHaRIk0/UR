@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\regpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\regpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainDesign\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainDesign\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAUwEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T11:03:15.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainDesign\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\LoginPage.xaml.cs",
+              "RelativeToolTip": "MainDesign\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T11:00:06.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\LoginPage.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\LoginPage.xaml",
+              "RelativeToolTip": "MainDesign\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T11:00:05.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegPage.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainDesign\\RegPage.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml.cs",
+              "RelativeToolTip": "MainDesign\\RegPage.xaml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvy0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T10:59:37.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegPage.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\RegPage.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml",
+              "RelativeToolTip": "MainDesign\\RegPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T10:59:35.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\MainWindow.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml",
+              "RelativeToolTip": "MainDesign\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T10:59:08.803Z"
             }
           ]
         }

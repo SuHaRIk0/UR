@@ -39,7 +39,7 @@
                 <Button x:Name="LoginButton" Content="Увійти" Width="170" Height="70" Margin="40,30" HorizontalAlignment="Left" FontSize="20"/>
 
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="40,-100">
-                    <Button x:Name="RegisterButton" Content="Зареєструватись" Width="120" Height="30"/>
+                    <Button x:Name="RegisterButton" Content="Зареєструватись" Width="120" Height="30" Click="RegisterButton_Click"/>
                     <Button Content="Забули пароль?" Width="120" Height="30" Margin="0,10"/>
                 </StackPanel>
             </StackPanel>

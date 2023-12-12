@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\
+D:\University\3_course\desctop\MainDesign\MainDesign\obj\Debug\
 MainDesign
 none
 false
 DEBUG;TRACE
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\App.xaml
-14-1041831417
+D:\University\3_course\desctop\MainDesign\MainDesign\App.xaml
+14-200698791
 
-22965107479
-15-2016860940
-MVVM\Model\ChatMenuWiget.xaml;MVVM\Model\ChatWiget.xaml;MVVM\Model\CommPage.xaml;MVVM\Model\EmojiWiget.xaml;MVVM\Model\LoginPage.xaml;MVVM\Model\MainMenu.xaml;MVVM\Model\MainWindow.xaml;MVVM\Model\PostEdit.xaml;MVVM\Model\PostReview.xaml;MVVM\Model\PostWiget.xaml;MVVM\Model\RegPage.xaml;MVVM\Model\SmallCreatePost.xaml;MVVM\Model\UserEditWiget.xaml;MVVM\Model\UserWiget.xaml;
+22-984709795
+15600999042
+ChatWiget.xaml;CommPage.xaml;EmojiWiget.xaml;LoginPage.xaml;MainMenu.xaml;MainWindow.xaml;PostEdit.xaml;PostReview.xaml;PostWiget.xaml;RegPage.xaml;SmallCreatePost.xaml;UserEditWiget.xaml;UserWiget.xaml;ChatMenuWiget.xaml;
 
 False
 
