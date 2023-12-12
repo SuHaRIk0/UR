@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj": {}
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj": {
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
         "projectName": "YouAre.Domain",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\obj\\",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

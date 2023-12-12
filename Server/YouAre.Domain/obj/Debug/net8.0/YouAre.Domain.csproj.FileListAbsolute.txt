@@ -10,3 +10,16 @@ C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\
 C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\refint\YouAre.Domain.dll
 C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.pdb
 C:\Users\ASUS\Documents\Проєкти\C#\YouAre-WebEnd\YouAre.Domain\obj\Debug\net8.0\ref\YouAre.Domain.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\bin\Debug\net8.0\YouAre.Domain.deps.json
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\bin\Debug\net8.0\YouAre.Domain.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\bin\Debug\net8.0\YouAre.Domain.pdb
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.csproj.AssemblyReference.cache
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.AssemblyInfoInputs.cache
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.AssemblyInfo.cs
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.csproj.CoreCompileInputs.cache
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.sourcelink.json
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\refint\YouAre.Domain.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.pdb
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\ref\YouAre.Domain.dll

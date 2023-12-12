@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\App.xaml
-14-200698791
+14-1041831417
 
-22-984709795
+22965107479
 15-2016860940
-PostEdit.xaml;PostReview.xaml;SmallCreatePost.xaml;EmojiWiget.xaml;UserEditWiget.xaml;ChatWiget.xaml;MainMenu.xaml;ChatMenuWiget.xaml;UserWiget.xaml;PostWiget.xaml;CommPage.xaml;RegPage.xaml;LoginPage.xaml;MainWindow.xaml;
+MVVM\Model\ChatMenuWiget.xaml;MVVM\Model\ChatWiget.xaml;MVVM\Model\CommPage.xaml;MVVM\Model\EmojiWiget.xaml;MVVM\Model\LoginPage.xaml;MVVM\Model\MainMenu.xaml;MVVM\Model\MainWindow.xaml;MVVM\Model\PostEdit.xaml;MVVM\Model\PostReview.xaml;MVVM\Model\PostWiget.xaml;MVVM\Model\RegPage.xaml;MVVM\Model\SmallCreatePost.xaml;MVVM\Model\UserEditWiget.xaml;MVVM\Model\UserWiget.xaml;
 
-True
+False
 
