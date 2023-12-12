@@ -36,3 +36,9 @@ D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainD
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign.csproj.CopyComplete
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign.exe
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign.pdb
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\PostReview.baml
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\SmallCreatePost.baml
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\PostEdit.g.cs
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\PostReview.g.cs
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\SmallCreatePost.g.cs
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\PostEdit.baml

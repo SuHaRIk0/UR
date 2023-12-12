@@ -25,14 +25,14 @@ namespace MainDesign
             {
                 using (var httpClient = new HttpClient())
                 {
-                    string apiUrl = $"{BaseUrl}/api/register";
+                    string apiUrl = $"{BaseUrl}/register"; 
                     string email = emailTextBox.Text;
                     string password = passwordTextBox.Text;
 
                     var registrationData = new
                     {
-                        Email = email,
-                        Password = password
+                        email,
+                        password
                     };
 
                     var jsonContent = new StringContent(JsonConvert.SerializeObject(registrationData), Encoding.UTF8, "application/json");
@@ -41,7 +41,6 @@ namespace MainDesign
                     if (response.IsSuccessStatusCode)
                     {
                         MessageBox.Show("Registration successful!");
-                        // Викликаємо подію RegisterRequested при успішній реєстрації
                         RegisterRequested?.Invoke();
                     }
                     else
