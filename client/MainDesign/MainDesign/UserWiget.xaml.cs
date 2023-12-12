@@ -15,14 +15,28 @@ using System.Windows.Shapes;
 
 namespace MainDesign
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class UserWiget : Window
+    public partial class UserWiget : Page
     {
+        public event EventHandler UserWigetRequested;
         public UserWiget()
         {
             InitializeComponent();
         }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void EditUser_Click(object sender, RoutedEventArgs e)
+        {
+            UserWigetRequested?.Invoke(this, new EventArgsEditUserProfilPage());
+        }
+    }
+
+    public class EventArgsEditUserProfilPage : EventArgs
+    {
+        public bool OpenEditUserWiget { get; set; } = true;
+        public bool OpenUserWiget { get; set; } = true;
     }
 }

@@ -14,6 +14,13 @@ namespace MainDesign
             InitializeComponent();
         }
 
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            LoginRequested?.Invoke(this, new EventArgsWitCommPage());
+
+        }
+
+
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
             LoginRequested?.Invoke(this, new EventArgsWithRegistrationPage());
@@ -29,5 +36,11 @@ namespace MainDesign
     {
         public bool OpenRegistrationPage { get; set; } = true;
         public bool OpenLoginPage { get; set; } = false; 
+    }
+
+    public class EventArgsWitCommPage : EventArgs
+    {
+        public bool OpenLoginPage { get; set; } = false;
+        public bool OpenCommPage { get; set; } = true;
     }
 }

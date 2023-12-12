@@ -23,3 +23,4 @@ D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.ServiceDefaults\obj\Deb
 D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\refint\YouAre-WebEnd.ServiceDefaults.dll
 D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\YouAre-WebEnd.ServiceDefaults.pdb
 D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\ref\YouAre-WebEnd.ServiceDefaults.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.ServiceDefaults\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs

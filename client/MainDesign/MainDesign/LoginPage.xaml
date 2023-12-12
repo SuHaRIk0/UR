@@ -36,7 +36,7 @@
                 <TextBlock Text="Пароль:" Foreground="White" FontSize="18" Margin="40,10,0,0"/>
                 <TextBox x:Name="passwordTextBox" Width="300" Height="30" Margin="0,5"/>
 
-                <Button x:Name="LoginButton" Content="Увійти" Width="170" Height="70" Margin="40,30" HorizontalAlignment="Left" FontSize="20"/>
+                <Button x:Name="LoginButton" Content="Увійти" Width="170" Height="70" Margin="40,30" HorizontalAlignment="Left" FontSize="20" Click="Login_Click"/>
 
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="40,-100">
                     <Button x:Name="RegisterButton" Content="Зареєструватись" Width="120" Height="30" Click="RegisterButton_Click"/>

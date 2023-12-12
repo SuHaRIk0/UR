@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\YouAre.AdminPanel",
+    "\\YouAre.API",
+    "\\YouAre.API\\Controllers",
     "\\YouAre.Persistance",
-    "\\YouAre.Persistance\\bin\\Debug",
-    "\\YouAre.Persistance\\bin\\Release",
     "\\YouAre.Persistance\\obj",
     "\\YouAre.Persistance\\obj\\Debug",
     "\\YouAre.Persistance\\obj\\Debug\\net8.0"
   ],
-  "SelectedNode": "\\YouAre.Persistance\\obj",
+  "SelectedNode": "\\YouAre.Persistance\\DesignTimeDbContextFactory.cs",
   "PreviewInSolutionExplorer": false
 }

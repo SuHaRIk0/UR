@@ -587,3 +587,12 @@ D:\University\3_course\desctop_1\UR\Server\YouAre.API\obj\Debug\net8.0\refint\Yo
 D:\University\3_course\desctop_1\UR\Server\YouAre.API\obj\Debug\net8.0\YouAre.API.pdb
 D:\University\3_course\desctop_1\UR\Server\YouAre.API\obj\Debug\net8.0\YouAre.API.genruntimeconfig.cache
 D:\University\3_course\desctop_1\UR\Server\YouAre.API\obj\Debug\net8.0\ref\YouAre.API.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\NodaTime.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Npgsql.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Npgsql.NodaTime.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs

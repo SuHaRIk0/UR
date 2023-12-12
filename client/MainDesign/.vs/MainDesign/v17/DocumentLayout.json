@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\regpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\regpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\postwiget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\postwiget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\usereditwiget.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\usereditwiget.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\usereditwiget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\usereditwiget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\userwiget.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\userwiget.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\userwiget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\userwiget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\commpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\commpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\commpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\commpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +59,8 @@
       "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\regpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\maindesign\\maindesign\\regpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01232596-9795-4DA2-B95C-DE9D3CE62E94}|MainDesign\\MainDesign.csproj|solutionrelative:maindesign\\regpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,31 +78,135 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "PostWiget.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\PostWiget.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\PostWiget.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\PostWiget.xaml",
+              "RelativeToolTip": "MainDesign\\PostWiget.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T15:30:53.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserEditWiget.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserEditWiget.xaml.cs",
+              "RelativeDocumentMoniker": "MainDesign\\UserEditWiget.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserEditWiget.xaml.cs",
+              "RelativeToolTip": "MainDesign\\UserEditWiget.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T14:27:19.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserEditWiget.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserEditWiget.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\UserEditWiget.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserEditWiget.xaml",
+              "RelativeToolTip": "MainDesign\\UserEditWiget.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T14:27:16.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserWiget.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserWiget.xaml.cs",
+              "RelativeDocumentMoniker": "MainDesign\\UserWiget.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserWiget.xaml.cs",
+              "RelativeToolTip": "MainDesign\\UserWiget.xaml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T14:14:02.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserWiget.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserWiget.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\UserWiget.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\UserWiget.xaml",
+              "RelativeToolTip": "MainDesign\\UserWiget.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T14:14:00.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "MainDesign\\MainMenu.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainMenu.xaml.cs",
+              "RelativeToolTip": "MainDesign\\MainMenu.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T13:33:22.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainMenu.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainMenu.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\MainMenu.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainMenu.xaml",
+              "RelativeToolTip": "MainDesign\\MainMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T13:33:15.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommPage.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\CommPage.xaml",
+              "RelativeDocumentMoniker": "MainDesign\\CommPage.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\CommPage.xaml",
+              "RelativeToolTip": "MainDesign\\CommPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-12T13:14:15.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommPage.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\CommPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainDesign\\CommPage.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\CommPage.xaml.cs",
+              "RelativeToolTip": "MainDesign\\CommPage.xaml.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAqwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T13:12:40.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainDesign\\MainWindow.xaml.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainDesign\\MainWindow.xaml.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAUwEMAAAAJAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwCkAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-12T11:03:15.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "MainDesign\\LoginPage.xaml.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\LoginPage.xaml.cs",
               "RelativeToolTip": "MainDesign\\LoginPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAA/wA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-12T11:00:06.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\LoginPage.xaml",
               "RelativeDocumentMoniker": "MainDesign\\LoginPage.xaml",
@@ -77,38 +217,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "RegPage.xaml.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml.cs",
               "RelativeDocumentMoniker": "MainDesign\\RegPage.xaml.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml.cs",
               "RelativeToolTip": "MainDesign\\RegPage.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAADwvy0AAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-12T10:59:37.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-12T10:59:37.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "RegPage.xaml",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml",
               "RelativeDocumentMoniker": "MainDesign\\RegPage.xaml",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\RegPage.xaml",
               "RelativeToolTip": "MainDesign\\RegPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2023-12-12T10:59:35.896Z"
+              "WhenOpened": "2023-12-12T10:59:35.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainDesign\\MainWindow.xaml",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\MainDesign\\MainDesign\\MainWindow.xaml",
               "RelativeToolTip": "MainDesign\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2023-12-12T10:59:08.803Z"
+              "WhenOpened": "2023-12-12T10:59:08.803Z",
+              "EditorCaption": ""
             }
           ]
         }

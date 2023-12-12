@@ -23,3 +23,4 @@ D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre
 D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\refint\YouAre.Domain.dll
 D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\YouAre.Domain.pdb
 D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\ref\YouAre.Domain.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.Domain\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
