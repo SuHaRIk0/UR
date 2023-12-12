@@ -15,14 +15,15 @@ using System.Windows.Shapes;
 
 namespace MainDesign
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class UserEditWiget : Window
+    public partial class UserEditWiget : Page
     {
+
+        public event EventHandler EditUserRequested;
         public UserEditWiget()
         {
             InitializeComponent();
         }
+
+
     }
 }

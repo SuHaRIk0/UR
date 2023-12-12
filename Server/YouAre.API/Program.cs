@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using YouAre.Persistent;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 
@@ -26,9 +25,6 @@ builder.Services.AddControllers();
 // Code-first Entity FW DbContext with Auth:
 builder.Services.AddDbContext<DataContext>(options => options.UseSqlite("DataSource=YouAreLite.db"));
 
-builder.Services.AddIdentityCore<Account>()
-    .AddEntityFrameworkStores<DataContext>()
-    .AddApiEndpoints();
 
 var app = builder.Build();
 
@@ -46,6 +42,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapIdentityApi<Account>();
 
 app.Run();

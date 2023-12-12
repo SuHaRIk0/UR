@@ -19,41 +19,44 @@ namespace MainDesign
             InitializeComponent();
         }
 
-        private async void RegisterButton_Click(object sender, RoutedEventArgs e)
+        private void Register_Click(object sender, RoutedEventArgs e) 
         {
-            try
-            {
-                using (var httpClient = new HttpClient())
-                {
-                    string apiUrl = $"{BaseUrl}/register"; 
-                    string email = emailTextBox.Text;
-                    string password = passwordTextBox.Text;
+            //try
+            //{
+            //    using (var httpClient = new HttpClient())
+            //    {
+            //        string apiUrl = $"{BaseUrl}/register"; 
+            //        string email = emailTextBox.Text;
+            //        string password = passwordTextBox.Text;
 
-                    var registrationData = new
-                    {
-                        email,
-                        password
-                    };
+            //        var registrationData = new
+            //        {
+            //            email,
+            //            password
+            //        };
 
-                    var jsonContent = new StringContent(JsonConvert.SerializeObject(registrationData), Encoding.UTF8, "application/json");
-                    HttpResponseMessage response = await httpClient.PostAsync(apiUrl, jsonContent);
+            //        var jsonContent = new StringContent(JsonConvert.SerializeObject(registrationData), Encoding.UTF8, "application/json");
+            //        HttpResponseMessage response = await httpClient.PostAsync(apiUrl, jsonContent);
 
-                    if (response.IsSuccessStatusCode)
-                    {
-                        MessageBox.Show("Registration successful!");
-                        RegisterRequested?.Invoke(this, new EventArgsWithLoginPage());
-                    }
-                    else
-                    {
-                        string errorMessage = await response.Content.ReadAsStringAsync();
-                        MessageBox.Show($"Registration failed: {errorMessage}");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Exception during registration: {ex.Message}");
-            }
+            //        if (response.IsSuccessStatusCode)
+            //        {
+            //            MessageBox.Show("Registration successful!");
+            //            RegisterRequested?.Invoke(this, new EventArgsWithLoginPage());
+            //        }
+            //        else
+            //        {
+            //            string errorMessage = await response.Content.ReadAsStringAsync();
+            //            MessageBox.Show($"Registration failed: {errorMessage}");
+            //        }
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show($"Exception during registration: {ex.Message}");
+            //}
+
+            RegisterRequested?.Invoke(this, new EventArgsWithLoginPage());
+
         }
 
         private void AlreadyRegisteredButton_Click(object sender, RoutedEventArgs e)
@@ -65,6 +68,7 @@ namespace MainDesign
         {
             Application.Current.Shutdown();
         }
+
         public class EventArgsWithLoginPage : EventArgs
         {
             public bool OpenRegistrationPage { get; set; } = false;

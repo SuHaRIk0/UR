@@ -6,7 +6,7 @@ namespace YouAre.Helpers
 {
     public static class Logger
     {
-        public static void information(string message)
+        public static void Information(string message)
         {
             AnsiConsole.Markup(
                 $"[lightcyan1]{DateTime.Now} - [skyblue3]information:\n\t[/]" +
@@ -14,7 +14,8 @@ namespace YouAre.Helpers
                 $"[/]\n"
             );
         }
-        public static void debug(string message)
+
+        public static void Debug(string message)
         {
             AnsiConsole.Markup(
                 $"[lightcyan1]{DateTime.Now} - [lightsalmon3_1]debug information:\n\t[/]" +
@@ -22,7 +23,8 @@ namespace YouAre.Helpers
                 $"[/]\n"
             );
         }
-        public static void warning(string message)
+
+        public static void Warning(string message)
         {
             AnsiConsole.Markup(
                 $"[lightcyan1]{DateTime.Now} - [sandybrown]warning:\n\t[/]" +
@@ -30,7 +32,8 @@ namespace YouAre.Helpers
                 $"[/]\n"
             );
         }
-        public static void error(string description, QueryException exception)
+
+        public static void Error(string description, QueryException exception)
         {
             AnsiConsole.Markup(
                 $"[lightcyan1]{DateTime.Now} - [orchid2]exception:\n\t[/]" +

@@ -29,3 +29,8 @@ D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\obj\Debug\net8.0\Y
 D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\obj\Debug\net8.0\refint\YouAre.Persistent.dll
 D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.pdb
 D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\obj\Debug\net8.0\ref\YouAre.Persistent.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\bin\Debug\net8.0\YouAre.Persistent.runtimeconfig.json
+D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\obj\Debug\net8.0\YouAre.Persistent.genruntimeconfig.cache
+D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\bin\Debug\net8.0\appsettings.Development.json
+D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\bin\Debug\net8.0\appsettings.json
+D:\University\3_course\desctop_1\UR\Server\YouAre.Persistance\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs

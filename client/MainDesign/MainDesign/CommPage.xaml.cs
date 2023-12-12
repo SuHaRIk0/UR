@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using Newtonsoft.Json;
 
 namespace MainDesign
 {
-    public partial class CommPage : Window
+    public partial class CommPage : Page
     {
+        public event EventHandler CommRequested;
+
         private const string ApiBaseUrl = "http://localhost:5131/api/";
 
         public CommPage()
         {
             InitializeComponent();
-            LoadCommunitiesAsync();
+            //LoadCommunitiesAsync();
         }
 
         private async Task LoadCommunitiesAsync()
@@ -43,7 +46,21 @@ namespace MainDesign
             {
                 MessageBox.Show($"Error loading communities: {ex.Message}");
             }
+
+
         }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void CommEnter_Click(object sender, RoutedEventArgs e)
+        {
+            CommRequested?.Invoke(this, new EventArgsWitMainPage());
+
+        }
+
         private class Community
         {
             public int Id { get; set; }
@@ -53,5 +70,11 @@ namespace MainDesign
             public List<int> Members { get; set; }
             public string CommunityProfilePhoto { get; set; }
         }
+    }
+
+    public class EventArgsWitMainPage : EventArgs
+    {
+        public bool OpenMainMenuPage { get; set; } = true;
+        public bool OpenCommPage { get; set; } = false;
     }
 }

@@ -1,15 +1,11 @@
-﻿<Window x:Class="MainDesign.UserEditWiget"
+﻿<Page x:Class="MainDesign.UserEditWiget"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainDesign"
         mc:Ignorable="d"
-        Height="600" Width="920"
-        WindowStyle="None"
-        ResizeMode="CanResizeWithGrip"
-        Background="Transparent"
-        AllowsTransparency="True">
+        Height="600" Width="920">
 
     <Grid Background="Transparent">
         <Grid.ColumnDefinitions>
@@ -63,6 +59,7 @@
                     <GradientStop Color="#0A206F" Offset="1.0"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
+
             <StackPanel.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>
@@ -135,4 +132,4 @@
         </StackPanel>
 
     </Grid>
-</Window>
+</Page>

@@ -1,13 +1,17 @@
-﻿namespace YouAre.Domain
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace YouAre.Domain
 {
     public class Message
     {
-        [Key]
         public int Id { get; set; }
         [Required]
         public int AuthorId { get; set; }
-        public string? Text { get; set; }
-        public byte[]? Picture { get; set; }
+        [Required]
+        public int RecipientId { get; set; }
+        public string Text { get; set; }
+        public DateTime SentAt { get; set; }
+
         public static Message Empty = new() { Id = -1 };
     }
 }
