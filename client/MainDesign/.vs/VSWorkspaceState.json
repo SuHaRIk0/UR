@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MainDesign"
+    "\\MainDesign",
+    "\\MainDesign\\MVVM",
+    "\\MainDesign\\MVVM\\View"
   ],
   "SelectedNode": "\\MainDesign.sln",
   "PreviewInSolutionExplorer": false

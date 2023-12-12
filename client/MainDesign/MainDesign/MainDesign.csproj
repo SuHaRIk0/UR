@@ -61,59 +61,55 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MVVM\Model\ChatMenuWiget.xaml">
+    <Page Include="ChatWiget.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\ChatWiget.xaml">
+    <Page Include="CommPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\CommPage.xaml">
+    <Page Include="EmojiWiget.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\EmojiWiget.xaml">
+    <Page Include="LoginPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\LoginPage.xaml">
+    <Page Include="MainMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\MainMenu.xaml">
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\MainWindow.xaml">
+    <Page Include="PostEdit.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\PostEdit.xaml">
+    <Page Include="PostReview.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\PostReview.xaml">
+    <Page Include="PostWiget.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\PostWiget.xaml">
+    <Page Include="RegPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\RegPage.xaml">
+    <Page Include="SmallCreatePost.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\SmallCreatePost.xaml">
+    <Page Include="UserEditWiget.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MVVM\Model\UserEditWiget.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="MVVM\Model\UserWiget.xaml">
+    <Page Include="UserWiget.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -121,51 +117,55 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MVVM\Model\ChatMenuWiget.xaml.cs">
-      <DependentUpon>ChatMenuWiget.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MVVM\Model\ChatWiget.xaml.cs">
+    <Compile Include="ChatWiget.xaml.cs">
       <DependentUpon>ChatWiget.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\CommPage.xaml.cs">
+    <Compile Include="CommPage.xaml.cs">
       <DependentUpon>CommPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\EmojiWiget.xaml.cs">
+    <Compile Include="EmojiWiget.xaml.cs">
       <DependentUpon>EmojiWiget.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\LoginPage.xaml.cs">
+    <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\MainMenu.xaml.cs">
+    <Compile Include="MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\MainWindow.xaml.cs">
+    <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\PostEdit.xaml.cs">
+    <Compile Include="PostEdit.xaml.cs">
       <DependentUpon>PostEdit.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\PostReview.xaml.cs">
+    <Compile Include="PostReview.xaml.cs">
       <DependentUpon>PostReview.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\PostWiget.xaml.cs">
+    <Compile Include="PostWiget.xaml.cs">
       <DependentUpon>PostWiget.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\RegPage.xaml.cs">
+    <Compile Include="RegPage.xaml.cs">
       <DependentUpon>RegPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\SmallCreatePost.xaml.cs">
+    <Compile Include="SmallCreatePost.xaml.cs">
       <DependentUpon>SmallCreatePost.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\UserEditWiget.xaml.cs">
+    <Compile Include="UserEditWiget.xaml.cs">
       <DependentUpon>UserEditWiget.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\Model\UserWiget.xaml.cs">
+    <Compile Include="UserWiget.xaml.cs">
       <DependentUpon>UserWiget.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChatMenuWiget.xaml.cs">
+      <DependentUpon>ChatMenuWiget.xaml</DependentUpon>
     </Compile>
     <Compile Include="YourApiClient.cs" />
     <Compile Include="Core\RelayCommand.cs" />
     <Compile Include="Core\ObservableObject.cs" />
+    <Page Include="ChatMenuWiget.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -197,6 +197,7 @@
   <ItemGroup>
     <Folder Include="Font\" />
     <Folder Include="Images\" />
+    <Folder Include="MVVM\Model\" />
     <Folder Include="MVVM\ViewModel\" />
     <Folder Include="MVVM\View\" />
     <Folder Include="Theme\" />

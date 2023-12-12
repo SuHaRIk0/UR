@@ -10,7 +10,7 @@ namespace MainDesign
 {
     public partial class RegPage : Page
     {
-        public event Action RegisterRequested;
+        public event EventHandler RegisterRequested;
 
         private const string BaseUrl = "http://localhost:5131";
 
@@ -41,7 +41,7 @@ namespace MainDesign
                     if (response.IsSuccessStatusCode)
                     {
                         MessageBox.Show("Registration successful!");
-                        RegisterRequested?.Invoke();
+                        RegisterRequested?.Invoke(this, new EventArgsWithLoginPage());
                     }
                     else
                     {
@@ -56,9 +56,19 @@ namespace MainDesign
             }
         }
 
+        private void AlreadyRegisteredButton_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterRequested?.Invoke(this, new EventArgsWithLoginPage());
+        }
+
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+        public class EventArgsWithLoginPage : EventArgs
+        {
+            public bool OpenRegistrationPage { get; set; } = false;
+            public bool OpenLoginPage { get; set; } = true;
         }
     }
 }

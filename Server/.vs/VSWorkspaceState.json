@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\YouAre.Persistance",
+    "\\YouAre.Persistance\\bin\\Debug",
+    "\\YouAre.Persistance\\bin\\Release",
+    "\\YouAre.Persistance\\obj",
+    "\\YouAre.Persistance\\obj\\Debug",
+    "\\YouAre.Persistance\\obj\\Debug\\net8.0"
   ],
-  "SelectedNode": "\\YouAre-WebEnd.sln",
+  "SelectedNode": "\\YouAre.Persistance\\obj",
   "PreviewInSolutionExplorer": false
 }
