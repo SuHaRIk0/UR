@@ -11,8 +11,7 @@
         Background="Transparent"
         AllowsTransparency="True">
 
-    <Border Background="#03011F"
-            CornerRadius="0">
+    <Border Background="#03011F" CornerRadius="0">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250"/>
@@ -25,20 +24,20 @@
                 <RowDefinition/>
                 <RowDefinition Height="190"/>
             </Grid.RowDefinitions>
+
             <TextBlock x:Name="textBlock" Grid.Column="1" 
-                   Grid.Row="1"
-                   Text="U-re"
-                   VerticalAlignment="Bottom"
-                   HorizontalAlignment="Center"
-                   Foreground="White"
-                   FontSize="170"
-                   FontFamily="Goudy Old Style" Margin="0,0,0,8">
+                        Grid.Row="1"
+                        Text="U-re"
+                        VerticalAlignment="Bottom"
+                        HorizontalAlignment="Center"
+                        Foreground="White"
+                        FontSize="170"
+                        FontFamily="Goudy Old Style" Margin="0,0,0,8">
             </TextBlock>
+
             <Button Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Width="40" Height="40" Click="CloseButton_Click" Grid.Column="2"/>
 
+            <Frame x:Name="mainFrame" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
         </Grid>
-        
-        
-
     </Border>
 </Window>

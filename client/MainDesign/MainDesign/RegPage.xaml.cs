@@ -3,17 +3,18 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using Newtonsoft.Json;
 
 namespace MainDesign
 {
-    public partial class RegRage : Window
+    public partial class RegPage : Page
     {
-        public event EventHandler LoginRequested;
+        public event Action RegisterRequested;
 
         private const string BaseUrl = "http://localhost:5131";
 
-        public RegRage()
+        public RegPage()
         {
             InitializeComponent();
         }
@@ -27,21 +28,21 @@ namespace MainDesign
                     string apiUrl = $"{BaseUrl}/api/register";
                     string email = emailTextBox.Text;
                     string password = passwordTextBox.Text;
+
                     var registrationData = new
                     {
                         Email = email,
                         Password = password
                     };
+
                     var jsonContent = new StringContent(JsonConvert.SerializeObject(registrationData), Encoding.UTF8, "application/json");
                     HttpResponseMessage response = await httpClient.PostAsync(apiUrl, jsonContent);
 
                     if (response.IsSuccessStatusCode)
                     {
-                        string successMessage = await response.Content.ReadAsStringAsync();
-                        MessageBox.Show($"Registration successful: {successMessage}");
-
-                        // Raise the LoginRequested event
-                        LoginRequested?.Invoke(this, EventArgs.Empty);
+                        MessageBox.Show("Registration successful!");
+                        // Викликаємо подію RegisterRequested при успішній реєстрації
+                        RegisterRequested?.Invoke();
                     }
                     else
                     {
@@ -56,11 +57,6 @@ namespace MainDesign
             }
         }
 
-        private void AlreadyRegisteredButton_Click(object sender, RoutedEventArgs e)
-        {
-            // Raise the LoginRequested event
-            LoginRequested?.Invoke(this, EventArgs.Empty);
-        }
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();

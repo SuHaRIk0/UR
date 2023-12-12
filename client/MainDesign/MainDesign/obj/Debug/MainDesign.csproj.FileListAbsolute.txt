@@ -1,9 +1,8 @@
-D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainDesign.csproj.AssemblyReference.cache
-D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\LoginPage.g.cs
-D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainWindow.g.cs
-D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\App.g.cs
-D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainDesign_MarkupCompile.cache
-D:\University\3_course\desctop\Server\design\MainDesign\MainDesign\obj\Debug\MainDesign_MarkupCompile.lref
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\MainDesign.exe.config
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\MainDesign.exe
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\Cake.NSwag.Console.dll
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\Newtonsoft.Json.dll
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\Newtonsoft.Json.xml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign.csproj.AssemblyReference.cache
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\EmojiWiget.g.cs
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\UserEditWiget.g.cs
@@ -19,13 +18,6 @@ D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainW
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\App.g.cs
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign_MarkupCompile.cache
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign_MarkupCompile.lref
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\LoginPage.baml
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\MainDesign.exe.config
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\MainDesign.exe
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\MainDesign.pdb
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\Cake.NSwag.Console.dll
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\Newtonsoft.Json.dll
-D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\bin\Debug\Newtonsoft.Json.xml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\EmojiWiget.baml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\UserEditWiget.baml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\ChatWiget.baml
@@ -35,6 +27,7 @@ D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\UserW
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\PostWiget.baml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\CommPage.baml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\RegPage.baml
+D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\LoginPage.baml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainWindow.baml
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign.g.resources
 D:\University\3_course\desctop_1\UR\client\MainDesign\MainDesign\obj\Debug\MainDesign.Properties.Resources.resources

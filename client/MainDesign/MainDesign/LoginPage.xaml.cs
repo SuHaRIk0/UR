@@ -1,61 +1,39 @@
 ﻿using System;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using Newtonsoft.Json;
+using System.Windows.Controls;
+using System.Windows.Navigation;
 
 namespace MainDesign
 {
-    public partial class LoadinPage : Window
+    public partial class LoginPage : Page
     {
+        public event EventHandler LoginRequested;
 
-        public LoadinPage()
+        public LoginPage()
         {
             InitializeComponent();
         }
 
-        private async void LoginButton_Click(object sender, RoutedEventArgs e)
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                using (var httpClient = new HttpClient())
-                {
-                    string apiUrl = "http://localhost:5131/register";
-                    string email = emailTextBox.Text;
-                    string password = passwordTextBox.Text;
-
-                    var registrationData = new
-                    {
-                        email,
-                        password
-                    };
-
-                    var jsonContent = new StringContent(JsonConvert.SerializeObject(registrationData), Encoding.UTF8, "application/json");
-                    HttpResponseMessage response = await httpClient.PostAsync(apiUrl, jsonContent);
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        MessageBox.Show("Registration successful!");
-                        // Navigate to CommPage
-                        var commPageWindow = new CommPage();
-                        commPageWindow.Show();
-                    }
-                    else
-                    {
-                        string errorMessage = await response.Content.ReadAsStringAsync();
-                        MessageBox.Show($"Registration failed: {errorMessage}");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Exception during registration: {ex.Message}");
-            }
+            LoginRequested?.Invoke(this, EventArgs.Empty);
         }
+
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Викликаємо подію LoginRequested і передаємо параметр, що вказує на необхідність відкриття сторінки реєстрації
+            LoginRequested?.Invoke(this, new EventArgsWithRegistrationPage());
+        }
+
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
+    }
+
+    // Клас для передачі параметрів події
+    public class EventArgsWithRegistrationPage : EventArgs
+    {
+        public bool OpenRegistrationPage { get; set; } = true;
     }
 }

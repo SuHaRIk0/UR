@@ -61,6 +61,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="PostEdit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PostReview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SmallCreatePost.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="EmojiWiget.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -108,6 +120,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PostEdit.xaml.cs">
+      <DependentUpon>PostEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PostReview.xaml.cs">
+      <DependentUpon>PostReview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SmallCreatePost.xaml.cs">
+      <DependentUpon>SmallCreatePost.xaml</DependentUpon>
     </Compile>
     <Compile Include="YourApiClient.cs" />
     <Compile Include="EmojiWiget.xaml.cs">
