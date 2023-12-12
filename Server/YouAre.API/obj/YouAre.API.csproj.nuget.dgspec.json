@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.API\\YouAre.API.csproj": {}
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
         "projectName": "YouAre-WebEnd.ServiceDefaults",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre-WebEnd.ServiceDefaults\\obj\\",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,20 +101,20 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.API\\YouAre.API.csproj": {
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.API\\YouAre.API.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
         "projectName": "YouAre.API",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.API\\YouAre.API.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.API\\obj\\",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,17 +130,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj"
+              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj"
               },
-              "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj"
+              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
               },
-              "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Helpers\\YouAre.Helpers.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Helpers\\YouAre.Helpers.csproj"
+              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj"
               },
-              "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Persistance\\YouAre.Persistent.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Persistance\\YouAre.Persistent.csproj"
+              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj"
               }
             }
           }
@@ -209,20 +209,20 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj": {
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
         "projectName": "YouAre.Domain",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\obj\\",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -275,20 +275,20 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Helpers\\YouAre.Helpers.csproj": {
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Helpers\\YouAre.Helpers.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
         "projectName": "YouAre.Helpers",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Helpers\\YouAre.Helpers.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Helpers\\obj\\",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -304,8 +304,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj"
+              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
               }
             }
           }
@@ -345,20 +345,20 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Persistance\\YouAre.Persistent.csproj": {
+    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Persistance\\YouAre.Persistent.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
         "projectName": "YouAre.Persistent",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Persistance\\YouAre.Persistent.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Persistance\\obj\\",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -374,8 +374,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Documents\\Проєкти\\C#\\YouAre-WebEnd\\YouAre.Domain\\YouAre.Domain.csproj"
+              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
               }
             }
           }
