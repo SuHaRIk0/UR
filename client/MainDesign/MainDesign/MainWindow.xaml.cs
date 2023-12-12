@@ -11,30 +11,50 @@ namespace MainDesign
         public MainWindow()
         {
             InitializeComponent();
-            Task.Delay(3000).ContinueWith(_ =>
+
+            // Викликаємо метод для ініціалізації
+            Initialize();
+        }
+
+        private async void Initialize()
+        {
+            await Task.Delay(500);
+
+            Application.Current.Dispatcher.Invoke(() =>
             {
-                Application.Current.Dispatcher.Invoke(() =>
+
+                DoubleAnimation growAnimation = new DoubleAnimation
                 {
-                    DoubleAnimation animation = new DoubleAnimation
-                    {
-                        From = 100,
-                        To = 170,
-                        Duration = TimeSpan.FromSeconds(1.5)
-                    };
+                    From = 80,
+                    To = 170,  // Збільшуємо розмір тексту
+                    Duration = TimeSpan.FromSeconds(0.75)
+                };
 
-                    textBlock.BeginAnimation(TextBlock.FontSizeProperty, animation);
+                textBlock.BeginAnimation(TextBlock.FontSizeProperty, growAnimation);
 
-                    var loginPage = new LoginPage();
-                    loginPage.LoginRequested += LoginRequestedHandler;
-                    mainFrame.Navigate(loginPage);
-                });
+                
             });
+
+            await Task.Delay(3000);
+
+            var loginPage = new LoginPage();
+            loginPage.LoginRequested += LoginRequestedHandler;
+
+            //mainFrame.Visibility = Visibility.Collapsed;
+
+            mainFrame.Navigate(loginPage);
         }
 
         private void NavigateToLoginPage()
         {
+            // Створюємо і показуємо логін сторінку
             var loginPage = new LoginPage();
             loginPage.LoginRequested += LoginRequestedHandler;
+
+            // Ховаємо головну сторінку
+            mainFrame.Visibility = Visibility.Collapsed;
+
+            // Навігація на логін сторінку
             mainFrame.Navigate(loginPage);
         }
 
@@ -42,6 +62,12 @@ namespace MainDesign
         {
             if (e is EventArgsWithRegistrationPage args && args.OpenRegistrationPage)
             {
+                while (mainFrame.NavigationService.CanGoBack)
+                {
+                    mainFrame.NavigationService.RemoveBackEntry();
+                }
+
+                // Створюємо і показуємо реєстраційну сторінку
                 mainFrame.Navigate(new RegPage());
             }
             else
@@ -51,9 +77,17 @@ namespace MainDesign
             }
         }
 
+
         private void NavigateToCommPage()
         {
-            mainFrame.Navigate(new CommPage());
+            // Створюємо і показуємо сторінку "CommPage"
+            var commPage = new CommPage();
+
+            // Ховаємо головну сторінку
+            mainFrame.Visibility = Visibility.Collapsed;
+
+            // Навігація на "CommPage"
+            mainFrame.Navigate(commPage);
         }
 
         // Додайте обробник кнопки для логін пейджа
@@ -62,13 +96,14 @@ namespace MainDesign
             NavigateToCommPage();
         }
 
-        // Додайте обробник кнопки для регістрації
+        // Додайте обробник кнопки для реєстрації
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
+            // Створюємо і показуємо реєстраційну сторінку
             mainFrame.Navigate(new RegPage());
         }
 
-        // Додайте обробник кнопки для переключення на логін пейдж
+        // Додайте обробник кнопки для переходу на логін пейдж
         private void AlreadyRegisteredButton_Click(object sender, RoutedEventArgs e)
         {
             NavigateToLoginPage();

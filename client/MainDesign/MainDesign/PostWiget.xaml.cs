@@ -1,28 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace MainDesign
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class PostWiget : Window
+    public class Post
     {
-        public PostWiget()
+        public string Title { get; set; }
+        public string Content { get; set; }
+        public string ImageUrl { get; set; }
+    }
+
+    public partial class PostWidget : Window
+    {
+        public ObservableCollection<Post> Posts { get; set; } = new ObservableCollection<Post>();
+
+        public PostWidget()
         {
             InitializeComponent();
+            LoadPostsFromDatabase();
+            DataContext = this;
+        }
+
+        private void LoadPostsFromDatabase()
+        {
+            Posts.Add(new Post { Title = "Post 1", Content = "Content 1", ImageUrl = "path/to/image1.jpg" });
+            Posts.Add(new Post { Title = "Post 2", Content = "Content 2", ImageUrl = "path/to/image2.jpg" });
         }
     }
 }
