@@ -1,23 +1,83 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using YouAre.Domain;
-using YouAre.Persistent; // Add this line
+using YouAre.Persistent; 
 using System;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Identity.Data;
+using System.Text;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
 
 [ApiController]
 [Route("api/[controller]")]
-public class Controller : ControllerBase
+public class UserController : ControllerBase
 {
-    private readonly DataContext _context; // Assuming DataContext is your DatabaseContext
+    private readonly DataContext _context;
 
-    public Controller(DataContext context)
+    public UserController(DataContext context)
     {
         _context = context;
     }
 
+    [HttpPost("login")]
+    public IActionResult Login([FromBody] User model)
+    {
+        var user = _context.Profiles.SingleOrDefault(u => u.Username == model.Username && u.Password == model.Password);
 
-    [HttpPost("SendMessage")]
+        if (user == null)
+        {
+            return BadRequest("Неправильне ім'я користувача або пароль");
+        }
+        var token = GenerateToken(user);
+
+        return Ok(new { Token = token, UserId = user.Id });
+    }
+
+    [HttpPost("register")]
+    public IActionResult Register([FromBody] User model)
+    {
+        var existingUser = _context.Profiles.SingleOrDefault(u => u.Username == model.Username);
+
+        if (existingUser != null)
+        {
+            return BadRequest("Користувач з таким ім'ям вже існує");
+        }
+
+        var newUser = new User
+        {
+            Username = model.Username,
+            Email = model.Email,
+            Password = model.Password,
+        };
+
+        _context.Profiles.Add(newUser);
+        _context.SaveChanges();
+
+        var token = GenerateToken(newUser);
+
+        return Ok(new { Token = token, UserId = newUser.Id });
+    }
+
+    private string GenerateToken(User user)
+    {
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var key = Encoding.UTF8.GetBytes("zelenko_youare_1234567890123456_1234567890123456");
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(new Claim[]
+            {
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+            new Claim(ClaimTypes.Name, user.Username),
+            }),
+            Expires = DateTime.UtcNow.AddDays(7), 
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+        };
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        return tokenHandler.WriteToken(token);
+    }
+
+    [HttpPost("send_message")]
     public IActionResult SendMessage([FromBody] Message model)
     {
         // Клієнт відправляє свій айді, айді того, з ким відкритий чат, повідомлення і час відправлення.
@@ -37,7 +97,7 @@ public class Controller : ControllerBase
         return Ok("Повідомлення відправлено успішно");
     }
 
-    [HttpGet("Posts")]
+    [HttpGet("posts")]
     public IActionResult GetAllPublications()
     {
         // Пости - при запиті з впф сервер виводить всі наявні публікації в порядку від найновіших до старіших.
@@ -47,7 +107,7 @@ public class Controller : ControllerBase
         return Ok(posts);
     }
 
-    [HttpPost("CreatePost")]
+    [HttpPost("create_post")]
     public IActionResult CreatePost([FromBody] Publication model)
     {
         // Створення поста - при запиті відправляємо посилання на зображення, текст та наш айді.
@@ -59,7 +119,6 @@ public class Controller : ControllerBase
             Text = model.Text,
             AuthorId = model.AuthorId,
             PostAt = DateTime.Now
-            // Додайте інші поля за потребою
         };
 
         _context.Publications.Add(newPublication);
@@ -68,7 +127,7 @@ public class Controller : ControllerBase
         return Ok("Пост створено успішно");
     }
 
-    [HttpGet("MyStatistics")]
+    [HttpGet("my_statistics")]
     public IActionResult GetMyStatistics(int userId)
     {
         // Статистика моя - при запиті відправляємо айді, сервер повертає кількість часу проведеного користувачем в застосунку.
@@ -85,7 +144,7 @@ public class Controller : ControllerBase
     }
 
 
-    [HttpGet("DailyStatistics")]
+    [HttpGet("daily_statistics")]
     public IActionResult GetDailyStatistics()
     {
         // Статистика за день - показує трьох учасників, які найбільшу кількість проведеного часу за день мають,
@@ -108,7 +167,7 @@ public class Controller : ControllerBase
         return Ok(new { TopUsers = usersByTime, CurrentUserPosition = currentUserPosition });
     }
 
-    [HttpGet("WeeklyStatistics")]
+    [HttpGet("weekly_statistics")]
     public IActionResult GetWeeklyStatistics()
     {
         // Статистика за тиждень - показує трьох учасників, які найбільшу кількість проведеного часу за тиждень мають,

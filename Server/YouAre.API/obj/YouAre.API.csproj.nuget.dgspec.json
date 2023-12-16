@@ -39,9 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -120,6 +117,10 @@
               "target": "Package",
               "version": "[2.1.7, )"
             },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -196,9 +197,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -275,6 +273,10 @@
               "target": "Package",
               "version": "[6.5.0, )"
             },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -338,9 +340,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -390,6 +389,10 @@
             "SQLitePCLRaw.lib.e_sqlite3": {
               "target": "Package",
               "version": "[2.1.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Text.Json": {
               "target": "Package",
@@ -455,9 +458,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -507,6 +507,10 @@
             "Spectre.Console": {
               "target": "Package",
               "version": "[0.48.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Text.Json": {
               "target": "Package",
@@ -572,9 +576,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -638,6 +639,10 @@
             "SQLitePCLRaw.lib.e_sqlite3": {
               "target": "Package",
               "version": "[2.1.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Text.Json": {
               "target": "Package",

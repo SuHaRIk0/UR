@@ -39,9 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -91,6 +88,10 @@
             "SQLitePCLRaw.lib.e_sqlite3": {
               "target": "Package",
               "version": "[2.1.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Text.Json": {
               "target": "Package",

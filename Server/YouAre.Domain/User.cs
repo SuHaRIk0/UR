@@ -13,8 +13,8 @@ namespace YouAre.Domain
         [Required]
         public string Password { get; set; }
         [Required]
-        public string Login { get; set; }
-        public byte[] ProfilePhoto { get; set; }
+        public string Description { get; set; } = "Default description";
+        public byte[] ProfilePhoto { get; set; } = [];
         public long TimeSpent { get; set; } = 0;
 
         public static User Empty = new() { Id = -1 };
