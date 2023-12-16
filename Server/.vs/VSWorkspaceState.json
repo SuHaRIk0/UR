@@ -3,12 +3,8 @@
     "",
     "\\YouAre.AdminPanel",
     "\\YouAre.API",
-    "\\YouAre.API\\Controllers",
-    "\\YouAre.Persistance",
-    "\\YouAre.Persistance\\obj",
-    "\\YouAre.Persistance\\obj\\Debug",
-    "\\YouAre.Persistance\\obj\\Debug\\net8.0"
+    "\\YouAre.API\\Controllers"
   ],
-  "SelectedNode": "\\YouAre.Persistance\\DesignTimeDbContextFactory.cs",
+  "SelectedNode": "\\YouAre.API\\Controllers\\Controller.cs",
   "PreviewInSolutionExplorer": false
 }

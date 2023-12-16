@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System.Configuration;
 using YouAre.Persistent;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,9 +25,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 // Code-first Entity FW DbContext with Auth:
-builder.Services.AddDbContext<DataContext>(options => options.UseSqlite("DataSource=YouAreLite.db"));
+IConfigurationRoot configuration = new ConfigurationBuilder()
+  .SetBasePath(Directory.GetCurrentDirectory())
+  .AddJsonFile("appsettings.json")
+  .Build();
 
-
+var connectionString = configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<DataContext>(options => options.UseNpgsql(connectionString));
 var app = builder.Build();
 
 app.MapDefaultEndpoints();

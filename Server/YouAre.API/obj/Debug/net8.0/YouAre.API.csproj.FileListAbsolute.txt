@@ -596,3 +596,8 @@ D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Npgsql.En
 D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.dll
 D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Npgsql.NodaTime.dll
 D:\University\3_course\desctop_1\UR\Server\YouAre.API\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

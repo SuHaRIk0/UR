@@ -21,7 +21,7 @@ namespace YouAre.Persistent
             var builder = new DbContextOptionsBuilder<DataContext>();
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-            builder.UseNpgsql(connectionString); // Використовуємо builder напряму
+            builder.UseNpgsql(connectionString); 
 
             return new DataContext(builder.Options);
         }

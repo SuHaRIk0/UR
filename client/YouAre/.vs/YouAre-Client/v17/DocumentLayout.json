@@ -1,0 +1,372 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\statistic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\statistic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\statistic.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\statistic.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\createpost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\createpost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\posts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\posts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\posts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\posts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\createpost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\createpost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\chats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\chats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\chats.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\chats.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\chatmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\chatmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\application.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\application.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\youare.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\youare.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\chatmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\chatmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\viewmodel\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\viewmodel\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\application.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\application.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|d:\\university\\3_course\\desctop_1\\ur\\client\\youare\\youare\\mvvm\\view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4E36DF-2151-45B2-AAAF-DA0ADA66D7DD}|YouAre\\YouAre.csproj|solutionrelative:youare\\mvvm\\view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Statistic.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Statistic.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Statistic.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Statistic.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Statistic.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:50:18.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Statistic.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Statistic.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Statistic.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Statistic.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Statistic.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-15T22:50:16.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreatePost.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\CreatePost.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\CreatePost.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\CreatePost.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\CreatePost.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:39:19.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreatePost.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\CreatePost.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\CreatePost.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\CreatePost.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\CreatePost.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-15T22:39:17.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Posts.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Posts.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Posts.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Posts.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Posts.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:35:41.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Posts.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Posts.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Posts.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Posts.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Posts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-15T22:35:32.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Chats.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Chats.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Chats.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Chats.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Chats.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T21:27:32.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chats.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Chats.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Chats.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Chats.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Chats.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-15T21:27:30.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChatMenu.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\ChatMenu.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\ChatMenu.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\ChatMenu.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\ChatMenu.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T21:12:44.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatMenu.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\ChatMenu.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\ChatMenu.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\ChatMenu.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\ChatMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-15T21:12:01.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Users.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Users.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Users.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Users.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Users.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T15:52:17.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Users.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Users.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Users.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Users.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Users.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-15T15:50:57.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "YouAre",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\YouAre.csproj",
+              "RelativeDocumentMoniker": "YouAre\\YouAre.csproj",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\YouAre.csproj",
+              "RelativeToolTip": "YouAre\\YouAre.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-15T13:58:33.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\Model\\User.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\Model\\User.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\Model\\User.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T21:20:45.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainView.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\ViewModel\\MainView.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\ViewModel\\MainView.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\ViewModel\\MainView.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\ViewModel\\MainView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T19:52:38.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Register.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Register.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Register.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAMwBUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T19:49:29.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Login.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Login.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Login.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T19:42:52.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Application.xaml.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Application.xaml.cs",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Application.xaml.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Application.xaml.cs",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Application.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T18:07:29.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Register.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Register.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Register.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-14T17:37:41.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Login.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Login.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Login.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-14T16:57:21.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Application.xaml",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Application.xaml",
+              "RelativeDocumentMoniker": "YouAre\\MVVM\\View\\Application.xaml",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\MVVM\\View\\Application.xaml",
+              "RelativeToolTip": "YouAre\\MVVM\\View\\Application.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-14T17:37:42.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
