@@ -97,6 +97,15 @@ public class UserController : ControllerBase
         return Ok("Повідомлення відправлено успішно");
     }
 
+    [HttpGet("all_users")]
+    public IActionResult GetAllUsers()
+    {
+        // Retrieve the list of all users with their names and surnames
+        var users = _context.Profiles.Select(u => new { u.Id, u.Username }).ToList();
+
+        return Ok(users);
+    }
+
     [HttpGet("posts")]
     public IActionResult GetAllPublications()
     {
