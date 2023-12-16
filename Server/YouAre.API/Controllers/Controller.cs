@@ -127,7 +127,7 @@ public class UserController : ControllerBase
             Picture = model.Picture,
             Text = model.Text,
             AuthorId = model.AuthorId,
-            PostAt = DateTime.Now
+            PostAt = DateTime.UtcNow
         };
 
         _context.Publications.Add(newPublication);
