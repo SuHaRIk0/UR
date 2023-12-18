@@ -5,8 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:YouAre.MVVM.View"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:viewModel="clr-namespace:YouAre.MVVM.ViewModel"
              mc:Ignorable="d" 
-             d:DesignHeight="760" d:DesignWidth="650">
+             Height="760" Width="450">
+    <UserControl.DataContext>
+        <viewModel:MainView/>
+    </UserControl.DataContext>
     <materialDesign:Card UniformCornerRadius="15"
                  Background="{DynamicResource MaterialDesignPaper}"
                  Margin="25"
@@ -25,9 +29,13 @@
                                  PlacementMode="BottomAndAlignRightEdges"
                                  StaysOpen="False"
                                  Foreground="White" Height="25">
-                  
+                    <StackPanel HorizontalAlignment="Center">
+                        <Button x:Name="btn_exit"
+                                ToolTip="Close Application"
+                                Content="Exit Application" Click="btn_exit_Click"/>
+                    </StackPanel>
                 </materialDesign:PopupBox>
-                <Image Margin="0 30 0 5" Source="../../logo.png" Height="100"/>
+                <Image Margin="0 30 0 5" Source="../../Assets/logo.png" Height="100"/>
                 <TextBlock Margin="0 25 0 5" HorizontalAlignment="Center"
                    FontSize="28" FontWeight="Bold"
                    Foreground="White" Text="Hello There!"/>
@@ -55,6 +63,7 @@
 
                 <Button Margin="0 10 0 0" x:Name="toLoginBtn"
                 Style="{StaticResource MaterialDesignFlatButton}"
+                        Command="{Binding LoginCommand}"
                 Foreground="White"
                 materialDesign:ShadowAssist.ShadowDepth="Depth0"
                 Height="53" Width="300"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "70YYWDXgJqhUOxA6wxiDuregCyRcwp9hTxOlS3TDAYjJo5mE5MGkr5vXhS++vHU6x3EtmAJ8gjsA6PFFmXi6hQ==",
+  "dgSpecHash": "j35SRrpa76f4/Tr3KYSqjeXs4SjuIcHo3Rkh9yEAEobv4mJzcsim3sUQRWNRknqjPs2fzFum5FvdP5jSJj5DLw==",
   "success": true,
   "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj",
   "expectedPackageFiles": [
@@ -75,6 +75,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.authorization.8.0.0-rc.2.23480.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.8.0.0-rc.2.23480.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.analyzers.8.0.0-rc.2.23480.2.nupkg.sha512",
@@ -175,6 +176,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.0.3\\microsoft.identitymodel.protocols.7.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.0.3\\microsoft.identitymodel.protocols.openidconnect.7.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.2\\microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.jsinterop\\8.0.0-rc.2.23480.2\\microsoft.jsinterop.8.0.0-rc.2.23480.2.nupkg.sha512",

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity.Data;
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -77,6 +78,7 @@ public class UserController : ControllerBase
         return tokenHandler.WriteToken(token);
     }
 
+    [Authorize]
     [HttpPost("send_message")]
     public IActionResult SendMessage([FromBody] Message model)
     {
@@ -97,6 +99,7 @@ public class UserController : ControllerBase
         return Ok("Повідомлення відправлено успішно");
     }
 
+    [Authorize]
     [HttpGet("all_users")]
     public IActionResult GetAllUsers()
     {
@@ -106,6 +109,7 @@ public class UserController : ControllerBase
         return Ok(users);
     }
 
+    [Authorize]
     [HttpGet("posts")]
     public IActionResult GetAllPublications()
     {
@@ -116,6 +120,7 @@ public class UserController : ControllerBase
         return Ok(posts);
     }
 
+    [Authorize]
     [HttpPost("create_post")]
     public IActionResult CreatePost([FromBody] Publication model)
     {
@@ -136,6 +141,43 @@ public class UserController : ControllerBase
         return Ok("Пост створено успішно");
     }
 
+    [Authorize]
+    [HttpPost("update_avatar")]
+    public IActionResult UpdateAvatar([FromBody] User model)
+    {
+        var user = _context.Profiles.FirstOrDefault(u => u.Id == model.Id);
+
+        if (user == null)
+        {
+            return NotFound("Користувач не знайдений");
+        }
+
+        user.ProfilePhoto = model.ProfilePhoto;
+
+        _context.SaveChanges();
+
+        return Ok("Аватар змінено успішно");
+    }
+
+    [Authorize]
+    [HttpPost("update_description")]
+    public IActionResult UpdateDescription([FromBody] User model)
+    {
+        var user = _context.Profiles.FirstOrDefault(u => u.Id == model.Id);
+
+        if (user == null)
+        {
+            return NotFound("Користувач не знайдений");
+        }
+
+        user.Description = model.Description;
+
+        _context.SaveChanges();
+
+        return Ok("Опис змінено успішно");
+    }
+
+    [Authorize]
     [HttpGet("my_statistics")]
     public IActionResult GetMyStatistics(int userId)
     {
@@ -152,7 +194,7 @@ public class UserController : ControllerBase
         return Ok(user.TimeSpent);
     }
 
-
+    [Authorize]
     [HttpGet("daily_statistics")]
     public IActionResult GetDailyStatistics()
     {
@@ -176,6 +218,7 @@ public class UserController : ControllerBase
         return Ok(new { TopUsers = usersByTime, CurrentUserPosition = currentUserPosition });
     }
 
+    [Authorize]
     [HttpGet("weekly_statistics")]
     public IActionResult GetWeeklyStatistics()
     {
@@ -199,4 +242,50 @@ public class UserController : ControllerBase
 
         return Ok(new { TopUsers = usersByTime, CurrentUserPosition = currentUserPosition });
     }
+
+    [Authorize]
+    [HttpGet("chats")]
+    public IActionResult GetUsersWithMessages(int userId)
+    {
+        // Отримати всі айді учасників, які спілкувалися з користувачем userId
+        var usersWithMessages = _context.Messages
+            .Where(m => m.AuthorId == userId || m.RecipientId == userId)
+            .SelectMany(m => new[] { m.AuthorId, m.RecipientId })
+            .Distinct()
+            .Where(id => id != userId)
+            .ToList();
+
+        // Отримати інформацію про користувачів за їх айді
+        var users = _context.Profiles
+            .Where(u => usersWithMessages.Contains(u.Id))
+            .Select(u => new { u.Id, u.Username })
+            .ToList();
+
+        return Ok(users);
+    }
+
+    [Authorize]
+    [HttpGet("profile")]
+    public IActionResult GetUserProfile(int userId)
+    {
+        var userProfile = _context.Profiles
+            .Where(u => u.Id == userId)
+            .Select(u => new
+            {
+                u.Username,
+                u.ProfilePhoto,
+                u.Description,
+                u.Email
+            })
+            .FirstOrDefault();
+
+        if (userProfile == null)
+        {
+            return NotFound("Користувач не знайдений");
+        }
+
+        return Ok(userProfile);
+    }
+
+
 }

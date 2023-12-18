@@ -680,3 +680,6 @@ D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.AppHost\bin\Debug\net8.
 D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.AppHost\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.dll
 D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.AppHost\bin\Debug\net8.0\Npgsql.NodaTime.dll
 D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.AppHost\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
+D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.AppHost\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.AppHost\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\University\3_course\desctop_1\UR\Server\YouAre-WebEnd.AppHost\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
