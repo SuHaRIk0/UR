@@ -11,20 +11,16 @@
       "RelativeMoniker": "D:0:0:{9CE9B3E4-EA81-4D39-BD37-611716275DDD}|YouAre.Domain\\YouAre.Domain.csproj|solutionrelative:youare.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9CE9B3E4-EA81-4D39-BD37-611716275DDD}|YouAre.Domain\\YouAre.Domain.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.domain\\publications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE9B3E4-EA81-4D39-BD37-611716275DDD}|YouAre.Domain\\YouAre.Domain.csproj|solutionrelative:youare.domain\\publications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{999E3230-74D1-43FE-B8D1-0FA14C18C203}|YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare-webend.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999E3230-74D1-43FE-B8D1-0FA14C18C203}|YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj|solutionrelative:youare-webend.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|solutionrelative:youare.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|solutionrelative:youare.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999E3230-74D1-43FE-B8D1-0FA14C18C203}|YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare-webend.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{999E3230-74D1-43FE-B8D1-0FA14C18C203}|YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj|solutionrelative:youare-webend.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.api\\youare.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|solutionrelative:youare.api\\youare.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CE9B3E4-EA81-4D39-BD37-611716275DDD}|YouAre.Domain\\YouAre.Domain.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.domain\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,40 +31,28 @@
       "RelativeMoniker": "D:0:0:{9CE9B3E4-EA81-4D39-BD37-611716275DDD}|YouAre.Domain\\YouAre.Domain.csproj|solutionrelative:youare.domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE9B3E4-EA81-4D39-BD37-611716275DDD}|YouAre.Domain\\YouAre.Domain.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.domain\\publications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE9B3E4-EA81-4D39-BD37-611716275DDD}|YouAre.Domain\\YouAre.Domain.csproj|solutionrelative:youare.domain\\publications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC521457-B9CC-4400-956B-349B0E61C76C}|YouAre.Helpers\\YouAre.Helpers.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.helpers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC521457-B9CC-4400-956B-349B0E61C76C}|YouAre.Helpers\\YouAre.Helpers.csproj|solutionrelative:youare.helpers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{999E3230-74D1-43FE-B8D1-0FA14C18C203}|YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare-webend.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{999E3230-74D1-43FE-B8D1-0FA14C18C203}|YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj|solutionrelative:youare-webend.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|solutionrelative:youare.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|solutionrelative:youare.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.api\\youare.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{80A4E82D-2685-4544-81A5-95C483AD0285}|YouAre.API\\YouAre.API.csproj|solutionrelative:youare.api\\youare.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|d:\\university\\3_course\\desctop_1\\ur\\server\\youare.persistance\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA3A729E-5C60-474E-8A97-F2C3B64702EB}|YouAre.Persistance\\YouAre.Persistent.csproj|solutionrelative:youare.persistance\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,39 +70,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "YouAre.API.http",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.http",
-              "RelativeDocumentMoniker": "YouAre.API\\YouAre.API.http",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.http",
-              "RelativeToolTip": "YouAre.API\\YouAre.API.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2023-12-13T22:39:30.35Z"
+              "DocumentIndex": 4,
+              "Title": "YouAre.API.csproj",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
+              "RelativeDocumentMoniker": "YouAre.API\\YouAre.API.csproj",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
+              "RelativeToolTip": "YouAre.API\\YouAre.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-17T20:16:57.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\Program.cs",
               "RelativeDocumentMoniker": "YouAre.API\\Program.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\Program.cs",
               "RelativeToolTip": "YouAre.API\\Program.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAUwDQAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-13T22:39:28.969Z"
+              "WhenOpened": "2023-12-17T20:16:19.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\appsettings.json",
-              "RelativeDocumentMoniker": "YouAre.API\\appsettings.json",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\appsettings.json",
-              "RelativeToolTip": "YouAre.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
+              "RelativeToolTip": "YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-12-13T22:39:27.907Z"
+              "WhenOpened": "2023-12-17T00:42:39.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "YouAre.Persistance\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "YouAre.Persistance\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-17T00:42:33.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.json",
+              "RelativeDocumentMoniker": "YouAre.Persistance\\appsettings.json",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.json",
+              "RelativeToolTip": "YouAre.Persistance\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-17T00:42:20.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "YouAre.Persistance\\appsettings.Development.json",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.Development.json",
+              "RelativeToolTip": "YouAre.Persistance\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-17T00:42:16.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DataContext.cs",
+              "RelativeDocumentMoniker": "YouAre.Persistance\\DataContext.cs",
+              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DataContext.cs",
+              "RelativeToolTip": "YouAre.Persistance\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-16T10:37:37.291Z"
             },
             {
               "$type": "Document",
@@ -128,116 +160,20 @@
               "RelativeDocumentMoniker": "YouAre.API\\Controllers\\Controller.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\Controllers\\Controller.cs",
               "RelativeToolTip": "YouAre.API\\Controllers\\Controller.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAwwGcAAABUAAAA",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAAAPsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-13T22:39:25.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "YouAre.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "YouAre.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAABUAAAAAAAAAAAAQwCkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-12-13T22:39:23.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\Program.cs",
-              "RelativeDocumentMoniker": "YouAre-WebEnd.AppHost\\Program.cs",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\Program.cs",
-              "RelativeToolTip": "YouAre-WebEnd.AppHost\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-13T22:39:18.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\appsettings.json",
-              "RelativeDocumentMoniker": "YouAre-WebEnd.AppHost\\appsettings.json",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\appsettings.json",
-              "RelativeToolTip": "YouAre-WebEnd.AppHost\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-12-13T22:39:17.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
-              "RelativeToolTip": "YouAre-WebEnd.AppHost\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-12-13T22:39:15.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "YouAre.Persistance\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "YouAre.Persistance\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAywBwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-13T22:39:13.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DataContext.cs",
-              "RelativeDocumentMoniker": "YouAre.Persistance\\DataContext.cs",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\DataContext.cs",
-              "RelativeToolTip": "YouAre.Persistance\\DataContext.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAowBEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-13T22:39:12.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.json",
-              "RelativeDocumentMoniker": "YouAre.Persistance\\appsettings.json",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.json",
-              "RelativeToolTip": "YouAre.Persistance\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-12-13T22:39:11.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "YouAre.Persistance\\appsettings.Development.json",
-              "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\appsettings.Development.json",
-              "RelativeToolTip": "YouAre.Persistance\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-12-13T22:39:10.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\Logger.cs",
               "RelativeDocumentMoniker": "YouAre.Helpers\\Logger.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\Logger.cs",
               "RelativeToolTip": "YouAre.Helpers\\Logger.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAywC0AAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwC0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-13T22:39:07.204Z"
             },
@@ -249,38 +185,37 @@
               "RelativeDocumentMoniker": "YouAre.Domain\\User.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\User.cs",
               "RelativeToolTip": "YouAre.Domain\\User.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAQwAkAAAAeAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-13T22:39:06.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-13T22:39:06.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Publications.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\Publications.cs",
               "RelativeDocumentMoniker": "YouAre.Domain\\Publications.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\Publications.cs",
               "RelativeToolTip": "YouAre.Domain\\Publications.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-13T22:39:05.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Message.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\Message.cs",
               "RelativeDocumentMoniker": "YouAre.Domain\\Message.cs",
               "ToolTip": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\Message.cs",
               "RelativeToolTip": "YouAre.Domain\\Message.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBAAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-13T22:39:04.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\Exceptions.cs",
               "RelativeDocumentMoniker": "YouAre.Domain\\Exceptions.cs",

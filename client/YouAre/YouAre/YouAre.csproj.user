@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="MVVM\View\Application.xaml.cs">
+    <Compile Update="MVVM\View\ApplicationYouAre.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MVVM\View\Login.xaml.cs">
@@ -16,19 +16,16 @@
     <Compile Update="MVVM\View\Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MVVM\View\Subviews\Chat.xaml.cs">
+    <Compile Update="MVVM\View\Subviews\Chats.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MVVM\View\Subviews\ChatsGlobal.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="MVVM\View\Subviews\CommunitiesGlobal.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="MVVM\View\Subviews\Community.xaml.cs">
+    <Compile Update="MVVM\View\Subviews\Posts.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MVVM\View\Subviews\Profile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\View\Subviews\Users.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -36,46 +33,25 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\Application.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Statistic.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\CreatePost.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Posts.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Chats.xaml">
+    <Page Update="MVVM\View\ApplicationYouAre.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\Login.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\ChatMenu.xaml">
+    <Page Update="MVVM\View\Subviews\Chats.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\Users.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Register.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Subviews\Chat.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Subviews\ChatsGlobal.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Subviews\CommunitiesGlobal.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MVVM\View\Subviews\Community.xaml">
+    <Page Update="MVVM\View\Subviews\Posts.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\Subviews\Profile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\Subviews\Users.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\Register.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -2,6 +2,10 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:YouAre"
+             xmlns:viewModel="clr-namespace:YouAre.MVVM.ViewModel"
+             xmlns:subViewModel="clr-namespace:YouAre.MVVM.ViewModel.SubViewModel"
+             xmlns:view="clr-namespace:YouAre.MVVM.View"
+             xmlns:subview="clr-namespace:YouAre.MVVM.View.Subviews"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
@@ -11,6 +15,18 @@
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Blue.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type subViewModel:ChatsSubViewModel}" >
+                <subview:Chats/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type subViewModel:PostsSubViewModel}" >
+                <subview:Posts/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type subViewModel:UsersSubViewModel}" >
+                <subview:Users/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type subViewModel:ProfileSubViewModel}" >
+                <subview:Profile/>
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

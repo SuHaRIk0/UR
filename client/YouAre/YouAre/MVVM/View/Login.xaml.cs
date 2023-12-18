@@ -1,25 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
+using YouAre.MVVM.Model;
 
 namespace YouAre.MVVM.View
 {
     public partial class Login : UserControl
     {
-        public Login()
+        private readonly Frame _navFrame;
+        private readonly Server _server;
+
+        public Login(Frame navFrame, Server server)
         {
             InitializeComponent();
+            _navFrame = navFrame;
+            _server = server;
+        }
+
+        private async void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            var account = await _server.Login(txtUsername.Text, txtPassword.Password);
+            if (account != Account.Empty)
+            {
+                var app = new ApplicationYouAre(_navFrame, account);
+                _navFrame.Navigate(app);
+            }
+            else
+            {
+                MessageBox.Show("There is no such account!");
+            }
+        }
+
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            var register = new Register(_navFrame, _server);
+            _navFrame.Navigate(register);
+        }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

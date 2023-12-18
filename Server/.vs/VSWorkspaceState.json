@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\YouAre.AdminPanel",
+    "\\YouAre-WebEnd.AppHost",
     "\\YouAre.API",
-    "\\YouAre.API\\Controllers"
+    "\\YouAre.API\\Controllers",
+    "\\YouAre.Domain"
   ],
   "SelectedNode": "\\YouAre-WebEnd.sln",
   "PreviewInSolutionExplorer": false

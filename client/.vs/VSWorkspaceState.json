@@ -4,8 +4,9 @@
     "\\YouAre",
     "\\YouAre\\YouAre",
     "\\YouAre\\YouAre\\MVVM",
+    "\\YouAre\\YouAre\\MVVM\\Model",
     "\\YouAre\\YouAre\\MVVM\\View"
   ],
-  "SelectedNode": "\\YouAre\\YouAre\\MVVM\\View\\Register.xaml.cs",
+  "SelectedNode": "\\YouAre\\YouAre\\MVVM\\Model\\Server.cs",
   "PreviewInSolutionExplorer": false
 }

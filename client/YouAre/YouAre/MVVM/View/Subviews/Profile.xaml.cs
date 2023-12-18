@@ -12,17 +12,43 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using YouAre.MVVM.Model;
 
 namespace YouAre.MVVM.View.Subviews
 {
-    /// <summary>
-    /// Логика взаимодействия для Profile.xaml
-    /// </summary>
     public partial class Profile : UserControl
     {
         public Profile()
         {
             InitializeComponent();
+            InitializeDataAsync_3();
+        }
+
+        private async void InitializeDataAsync_3()
+        {
+            var server = new Server("http://localhost:5131");
+            var users = await server.GetUserAsync();
+            lvDataBinding.ItemsSource = users;
+        }
+
+
+        private void Card_LayoutUpdated(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lvDataBinding_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
+        {
+
+        }
+        private void EditToggle_Checked(object sender, RoutedEventArgs e)
+        {
+            // Implementation for EditToggle_Checked event...
+        }
+
+        private void EditToggle_Unchecked(object sender, RoutedEventArgs e)
+        {
+            // Implementation for EditToggle_Unchecked event...
         }
     }
 }

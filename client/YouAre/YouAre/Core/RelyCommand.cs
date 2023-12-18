@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace YouAre.Core
 {
-    class RelyCommand : ICommand
+    class RelayCommand : ICommand
     {
         private Action<object> _execute;
         private Func<object, bool> _canExecute;
@@ -18,7 +18,7 @@ namespace YouAre.Core
             remove { CommandManager.RequerySuggested -= value; }
         }
 
-        public RelyCommand(Action<object> execute, Func<object, bool> canExecute)
+        public RelayCommand(Action<object> execute, Func<object, bool> canExecute = null)
         {
             _execute = execute;
             _canExecute = canExecute;

@@ -1,12 +1,11 @@
-﻿
+﻿D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\App.xaml;;
 FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MainWindow.xaml;;
-FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Application.xaml;;
+FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\ApplicationYouAre.xaml;;
 FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Login.xaml;;
 FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Register.xaml;;
-FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\Chat.xaml;;
-FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\ChatsGlobal.xaml;;
-FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\CommunitiesGlobal.xaml;;
-FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\Community.xaml;;
+FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\Chats.xaml;;
+FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\Posts.xaml;;
 FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\Profile.xaml;;
+FD:\University\3_course\desctop_1\UR\client\YouAre\YouAre\MVVM\View\Subviews\Users.xaml;;
 
