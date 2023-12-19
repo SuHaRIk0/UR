@@ -1,6 +1,4 @@
-﻿// CreatePostPopup.xaml.cs
-
-using System.Windows.Controls;
+﻿using System.Windows.Controls;
 using YouAre.MVVM.Model;
 using YouAre.MVVM.ViewModel.SubViewModel;
 using MaterialDesignThemes.Wpf;
@@ -17,23 +15,19 @@ namespace YouAre.MVVM.View.Subviews
             DataContext = new CreatePostPopupViewModel();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            InitializeDataAsync_4();
-        }
-
-        private async void InitializeDataAsync_4()
-        {
+        private async void Button_Click_start(object sender, RoutedEventArgs e)
+        { 
             var server = new Server("http://localhost:5131");
+
+            var viewModel = (DataContext as CreatePostPopupViewModel);
 
             var newPost = new Publication
             {
-                Text = (DataContext as CreatePostPopupViewModel)?.NewPostTitle ?? "", 
-                Picture = (DataContext as CreatePostPopupViewModel)?.NewPostImagePath ?? "" 
+                Text = viewModel?.NewPostTitle ?? "",
+                Picture = viewModel?.NewPostImagePath ?? ""
             };
 
             var userProfile = await server.PostPostAsync(newPost);
         }
-
     }
 }

@@ -1,43 +1,53 @@
 ﻿using System.ComponentModel;
+using YouAre.MVVM.Model;
 using YouAre.MVVM.View.Subviews;
 
-namespace YouAre.MVVM.ViewModel.SubViewModel
+public class CreatePostPopupViewModel : Posts, INotifyPropertyChanged
 {
-    public class CreatePostPopupViewModel : Posts, INotifyPropertyChanged
+    private Publication _newPost;
+
+    public CreatePostPopupViewModel()
     {
-        private string _newPostTitle;
-        public string NewPostTitle
+        _newPost = new Publication();
+    }
+
+    public string NewPostTitle
+    {
+        get { return _newPost.Text; }
+        set
         {
-            get { return _newPostTitle; }
-            set
+            if (_newPost.Text != value)
             {
-                if (_newPostTitle != value)
-                {
-                    _newPostTitle = value;
-                    OnPropertyChanged(nameof(NewPostTitle));
-                }
+                _newPost.Text = value;
+                OnPropertyChanged(nameof(NewPostTitle));
             }
         }
+    }
 
-        private string _newPostImagePath;
-        public string NewPostImagePath
+    public string NewPostImagePath
+    {
+        get { return _newPost.Picture; }
+        set
         {
-            get { return _newPostImagePath; }
-            set
+            if (_newPost.Picture != value)
             {
-                if (_newPostImagePath != value)
-                {
-                    _newPostImagePath = value;
-                    OnPropertyChanged(nameof(NewPostImagePath));
-                }
+                _newPost.Picture = value;
+                OnPropertyChanged(nameof(NewPostImagePath));
             }
         }
+    }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+    // Додайте інші властивості, якщо потрібно
 
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected virtual void OnPropertyChanged(string propertyName)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+
+    public Publication GetNewPost()
+    {
+        return _newPost;
     }
 }

@@ -7,12 +7,7 @@
              xmlns:viewModel="clr-namespace:YouAre.MVVM.ViewModel.SubViewModel"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="760" d:DesignWidth="636"
-             xmlns:converters="clr-namespace:YouAre.MVVM.View.Converters">
-
-    <UserControl.Resources>
-        <converters:ImagePathConverter x:Key="ImagePathConverter"/>
-    </UserControl.Resources>
+             d:DesignHeight="760" d:DesignWidth="636">
 
     <materialDesign:Card Margin="7" UniformCornerRadius="15" Background="Transparent" LayoutUpdated="Card_LayoutUpdated">
         <StackPanel>
@@ -20,30 +15,72 @@
                        HorizontalAlignment="Center"
                        FontSize="22"
                        FontWeight="Bold"
-                       Margin="0 15 0 0"
+                       Margin="0 15 0 -10"
                        Foreground="#fff"/>
 
             <!--<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">-->
-            <ListView Margin="10" Name="lvDataBinding" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                        <materialDesign:Card Width="380" Height="400" Background="Transparent">
-                                <StackPanel>
-                                    <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding PostAt}" FontSize="14" Foreground="#fff" VerticalAlignment="Center"/>
-                                    </StackPanel>
-                                    <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Title: " FontSize="14" Foreground="#fff" VerticalAlignment="Center"/>
-                                        <TextBlock Text="{Binding Text}" FontWeight="Bold" FontSize="14" Foreground="#fff" VerticalAlignment="Center"/>
-                                    </StackPanel>
-                                    <StackPanel Orientation="Horizontal">
-                                    <TextBlock Width="196" Height="140" Text="{Binding Picture}" />
+            <ListBox Margin="10" Name="lvDataBinding" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False"
+                     materialDesign:ListBoxItemAssist.ShowSelection="False">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <materialDesign:Card 
+                            Width="380" 
+                            Height="280" 
+                            Background="#30363d">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="240" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Image Width="380" Height="240" Stretch="UniformToFill" Source="{Binding Picture}"/>
+                                <!--<Button Grid.Row="0" Margin="0 0 16 -40"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Bottom"
+                                        Style="{StaticResource MaterialDesignFloatingActionSecondaryButton}">
+                                    <Image HorizontalAlignment="Left"
+                                           VerticalAlignment="Top"
+                                           Stretch="UniformToFill"
+                                           Source="{Binding AuthorsAvatar}"/>
+                                </Button>-->
+                                <StackPanel Orientation="Vertical"
+                                            Grid.Row="1" Margin="8 24 8 0">
+                                    <TextBlock FontWeight="Bold" FontSize="20"
+                                               Foreground="#31ebb9" HorizontalAlignment="Center"
+                                               Text="{Binding Title}"/>
+                                    <TextBlock Margin="7 5 0 0" FontWeight="Light" HorizontalAlignment="Left"
+                                               Foreground="LightGray" FontSize="14"
+                                               Text="{Binding Text}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right">
+                                    <TextBlock Text="{Binding PostAt}" Margin="8 8 128 8"
+                                               HorizontalAlignment="Left" Foreground="LightGray"
+                                               FontWeight="Light" FontSize="14" VerticalAlignment="Center"/>
+                                    <StackPanel Margin="8"
+                                                HorizontalAlignment="Right" Orientation="Horizontal">
+                                        <Button Width="30" Padding="2 0 2 0"
+                                                materialDesign:RippleAssist.IsCentered="True"
+                                                Style="{StaticResource MaterialDesignToolButton}">
+                                            <materialDesign:PackIcon Kind="ShareVariant"/>
+                                        </Button>
+                                        <Button Width="30" Padding="2 0 2 0"
+                                                materialDesign:RippleAssist.IsCentered="True"
+                                                Style="{StaticResource MaterialDesignToolButton}">
+                                            <materialDesign:PackIcon Kind="Heart" />
+                                        </Button>
+                                        <materialDesign:PopupBox Padding="2,0,2,0" Foreground="#828584">
+                                            <StackPanel>
+                                                <Button Content="More" />
+                                                <Button Content="Options" />
+                                            </StackPanel>
+                                        </materialDesign:PopupBox>
                                     </StackPanel>
                                 </StackPanel>
-                            </materialDesign:Card>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                            </Grid>
+                        </materialDesign:Card>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
             <!--</ScrollViewer>-->
 
             <Button Content="+"

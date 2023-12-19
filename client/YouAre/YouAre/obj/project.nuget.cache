@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9tUaV3s6t6uaCgD43wodLHxQ92rudrKY4la+nFrh4C9vzPZ2N8GqDxuudDNOJkSxPXjCNMZX7Ulb8XRYUVI+1g==",
+  "dgSpecHash": "ej9FjO32dgXpAT/OJiBEiXaGltHTWfc2TXo42Q5OFgcY5G30AS9V7F0fsVJ7pvE3NhwQlnyf/uZDbmU3DAbCTw==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\client\\YouAre\\YouAre\\YouAre.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\YouAre.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",

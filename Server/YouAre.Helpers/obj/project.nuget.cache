@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nss5MBDc/oS20CKdvGPBSYDGfGePp830X+TpVes07VuxL8czFpBzd5nFrHWX16RTgQ7+ux3o/AynFQ9cv9jzyA==",
+  "dgSpecHash": "0QKFP5+oahgU9nsgDTZZ73K6dmXMc5pV5UEMs8Iby08qUOPpTdy/FywSTDCtn14htY57KU1hCXNdpVhrCOg34w==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",

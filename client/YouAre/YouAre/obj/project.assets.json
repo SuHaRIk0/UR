@@ -270,11 +270,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\3_course\\desctop_1\\client\\YouAre\\YouAre\\YouAre.csproj",
+      "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\YouAre.csproj",
       "projectName": "YouAre",
-      "projectPath": "D:\\University\\3_course\\desctop_1\\client\\YouAre\\YouAre\\YouAre.csproj",
+      "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\YouAre.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\3_course\\desctop_1\\client\\YouAre\\YouAre\\obj\\",
+      "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\client\\YouAre\\YouAre\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

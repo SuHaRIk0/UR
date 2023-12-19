@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AVtX4GHSnezlYqMO4xOhVmunsbCm2NroOHu7fVHAliFr3ZoMqSEoMKxz/WY8E5QBGOteLFuBfn51pWJaTPLjNA==",
+  "dgSpecHash": "puBewuF27od+GchcbPVLp1N37DZRQuJ9QUMuhCD1jFJhwkp57yXZFr9x5x0iTNMutBh6s0XelYXAWpXAr8KqSw==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",
