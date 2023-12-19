@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DbyMITg7upRz59kLAjkAJUrLQTdLZxNa0VX43rhFn2TGtJTIEfEQ2GNof1WeWPtexHSWqucN00vmkxA51AZk/w==",
+  "dgSpecHash": "AVtX4GHSnezlYqMO4xOhVmunsbCm2NroOHu7fVHAliFr3ZoMqSEoMKxz/WY8E5QBGOteLFuBfn51pWJaTPLjNA==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",
@@ -74,6 +74,8 @@
     "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.nodatime\\8.0.0\\npgsql.entityframeworkcore.postgresql.nodatime.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql.nodatime\\8.0.0\\npgsql.nodatime.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry\\1.7.0-alpha.1\\opentelemetry.1.7.0-alpha.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry.api\\1.7.0-alpha.1\\opentelemetry.api.1.7.0-alpha.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.7.0-alpha.1\\opentelemetry.api.providerbuilderextensions.1.7.0-alpha.1.nupkg.sha512",

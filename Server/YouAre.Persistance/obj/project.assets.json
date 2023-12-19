@@ -1512,6 +1512,34 @@
           }
         }
       },
+      "NUnit/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/nunit.framework.dll": {
+            "related": ".legacy.xml;.xml"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {
+            "related": ".legacy.xml;.xml"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/4.5.0": {
+        "type": "package",
+        "build": {
+          "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -3274,6 +3302,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.6",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "NUnit": "4.0.1",
+          "NUnit3TestAdapter": "4.5.0",
           "Newtonsoft.Json": "13.0.3",
           "Npgsql": "8.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
@@ -5204,6 +5234,59 @@
         "npgsql.nodatime.8.0.0.nupkg.sha512",
         "npgsql.nodatime.nuspec",
         "postgresql.png"
+      ]
+    },
+    "NUnit/4.0.1": {
+      "sha512": "jNTHZ01hJsDNPDSBycoHpavFZUBf9vRVQLCyuo78LRrrFj6Ol/CeqK+NIeTk5d8Eycjk59KseWb7X5Ge6z7CgQ==",
+      "type": "package",
+      "path": "nunit/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.md",
+        "README.md",
+        "THIRD_PARTY_NOTICES.md",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net462/nunit.framework.dll",
+        "lib/net462/nunit.framework.legacy.dll",
+        "lib/net462/nunit.framework.legacy.xml",
+        "lib/net462/nunit.framework.xml",
+        "lib/net6.0/nunit.framework.dll",
+        "lib/net6.0/nunit.framework.legacy.dll",
+        "lib/net6.0/nunit.framework.legacy.xml",
+        "lib/net6.0/nunit.framework.xml",
+        "nunit.4.0.1.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/4.5.0": {
+      "sha512": "s8JpqTe9bI2f49Pfr3dFRfoVSuFQyraTj68c3XXjIS/MRGvvkLnrg6RLqnTjdShX+AdFUCCU/4Xex58AdUfs6A==",
+      "type": "package",
+      "path": "nunit3testadapter/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net462/NUnit3.TestAdapter.dll",
+        "build/net462/NUnit3.TestAdapter.pdb",
+        "build/net462/NUnit3TestAdapter.props",
+        "build/net462/nunit.engine.api.dll",
+        "build/net462/nunit.engine.core.dll",
+        "build/net462/nunit.engine.dll",
+        "build/net462/testcentric.engine.metadata.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp3.1/NUnit3TestAdapter.props",
+        "build/netcoreapp3.1/nunit.engine.api.dll",
+        "build/netcoreapp3.1/nunit.engine.core.dll",
+        "build/netcoreapp3.1/nunit.engine.dll",
+        "build/netcoreapp3.1/testcentric.engine.metadata.dll",
+        "docs/README.md",
+        "nunit3testadapter.4.5.0.nupkg.sha512",
+        "nunit3testadapter.nuspec",
+        "nunit_256.png"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -9248,6 +9331,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite.Design >= 1.1.6",
       "Microsoft.Extensions.Configuration.Json >= 8.0.0",
+      "NUnit >= 4.0.1",
+      "NUnit3TestAdapter >= 4.5.0",
       "Newtonsoft.Json >= 13.0.3",
       "Npgsql >= 8.0.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0",
@@ -9267,11 +9352,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
+      "projectUniqueName": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
       "projectName": "YouAre.Persistent",
-      "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
+      "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\obj\\",
+      "outputPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9293,8 +9378,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
-              "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
+            "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+              "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
             }
           }
         }
@@ -9342,6 +9427,14 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[4.5.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

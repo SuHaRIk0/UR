@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj": {}
+    "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj": {}
   },
   "projects": {
-    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj": {
+    "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj",
         "projectName": "YouAre-WebEnd.AppHost",
-        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\obj\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj": {
-                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj"
+              "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\YouAre.API.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\YouAre.API.csproj"
               }
             }
           }
@@ -60,6 +60,14 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -106,14 +114,14 @@
         }
       }
     },
-    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
+    "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
         "projectName": "YouAre-WebEnd.ServiceDefaults",
-        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\obj\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,6 +178,14 @@
             "Microsoft.Extensions.ServiceDiscovery": {
               "target": "Package",
               "version": "[8.0.0-preview.1.23557.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -255,14 +271,14 @@
         }
       }
     },
-    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj": {
+    "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\YouAre.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\YouAre.API.csproj",
         "projectName": "YouAre.API",
-        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\YouAre.API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\obj\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -284,17 +300,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
-                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj"
+              "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.ServiceDefaults\\YouAre-WebEnd.ServiceDefaults.csproj"
               },
-              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
-                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
+              "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
               },
-              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj": {
-                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj"
+              "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj"
               },
-              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj": {
-                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj"
+              "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj"
               }
             }
           }
@@ -346,6 +362,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -415,14 +439,14 @@
         }
       }
     },
-    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+    "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
         "projectName": "YouAre.Domain",
-        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\obj\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -475,6 +499,14 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -533,14 +565,14 @@
         }
       }
     },
-    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj": {
+    "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
         "projectName": "YouAre.Helpers",
-        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Helpers\\YouAre.Helpers.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Helpers\\obj\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -562,8 +594,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
-                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
+              "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
               }
             }
           }
@@ -655,14 +687,14 @@
         }
       }
     },
-    "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj": {
+    "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
+        "projectUniqueName": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
         "projectName": "YouAre.Persistent",
-        "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
+        "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\obj\\",
+        "outputPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -684,8 +716,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
-                "projectPath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
+              "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj": {
+                "projectPath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj"
               }
             }
           }
@@ -733,6 +765,14 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

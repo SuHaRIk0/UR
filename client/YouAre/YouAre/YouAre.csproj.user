@@ -16,9 +16,6 @@
     <Compile Update="MVVM\View\Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MVVM\View\Subviews\Chats.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="MVVM\View\Subviews\Posts.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -39,7 +36,10 @@
     <Page Update="MVVM\View\Login.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\Subviews\Chats.xaml">
+    <Page Update="MVVM\View\Subviews\EditAvaPopup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\Subviews\CreatePostPopup.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\Subviews\Posts.xaml">

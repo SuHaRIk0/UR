@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HLf6y5A3eV1+qQR0BV/s77O8lUAkc0L7A1Cskp5CMR6ZNXkn35LSojHdE/pBfJaXG8i3qX8gDox/1uCZUQH9dw==",
+  "dgSpecHash": "WrwlOAJ3PFfN6AkjYCojimlYKfykdrC+QdFPKoSPFyKaR/Mq+idubMBroHfEfMGcJMsYdmbvmF06T+wRMQNZsw==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Domain\\YouAre.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
@@ -52,6 +52,8 @@
     "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.nodatime\\8.0.0\\npgsql.entityframeworkcore.postgresql.nodatime.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql.nodatime\\8.0.0\\npgsql.nodatime.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

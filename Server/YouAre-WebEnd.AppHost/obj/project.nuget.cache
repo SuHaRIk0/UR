@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j35SRrpa76f4/Tr3KYSqjeXs4SjuIcHo3Rkh9yEAEobv4mJzcsim3sUQRWNRknqjPs2fzFum5FvdP5jSJj5DLw==",
+  "dgSpecHash": "AViQLBBDsAyuanuGxbA4pQ+gsJSZFyEVFpQJeZ5igkgGccbdHsUSW6A5VZ/6H7ZW0jOls+jUn3D5JA7uwwcsmw==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\YouAre-WebEnd.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\aspire.dashboard\\8.0.0-preview.1.23557.2\\aspire.dashboard.8.0.0-preview.1.23557.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\aspire.hosting\\8.0.0-preview.1.23557.2\\aspire.hosting.8.0.0-preview.1.23557.2.nupkg.sha512",
@@ -213,6 +213,8 @@
     "C:\\Users\\user\\.nuget\\packages\\nuget.projectmodel\\6.3.1\\nuget.projectmodel.6.3.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nuget.protocol\\6.3.1\\nuget.protocol.6.3.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nuget.versioning\\6.3.1\\nuget.versioning.6.3.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry\\1.7.0-alpha.1\\opentelemetry.1.7.0-alpha.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry.api\\1.7.0-alpha.1\\opentelemetry.api.1.7.0-alpha.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.7.0-alpha.1\\opentelemetry.api.providerbuilderextensions.1.7.0-alpha.1.nupkg.sha512",

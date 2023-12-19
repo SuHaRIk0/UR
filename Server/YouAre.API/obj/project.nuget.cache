@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "szdH1IbtJUiqKBn3uSKW2zPgNO3a5xF3bpl4WbHU6HIFwTlBPskKBOFOru8F59/AJk806ky2G9dDdwRj9JFh1A==",
+  "dgSpecHash": "s2emt7R2EAWeNdeANKhgsZX84Go8nFIB9jOy8xOg7uLdBiUzelzQSpUr2UM7B04UwNROPnyZbabZf266EE5PWw==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\YouAre.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",
@@ -185,6 +185,8 @@
     "C:\\Users\\user\\.nuget\\packages\\nuget.projectmodel\\6.3.1\\nuget.projectmodel.6.3.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nuget.protocol\\6.3.1\\nuget.protocol.6.3.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nuget.versioning\\6.3.1\\nuget.versioning.6.3.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry\\1.7.0-alpha.1\\opentelemetry.1.7.0-alpha.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry.api\\1.7.0-alpha.1\\opentelemetry.api.1.7.0-alpha.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.7.0-alpha.1\\opentelemetry.api.providerbuilderextensions.1.7.0-alpha.1.nupkg.sha512",

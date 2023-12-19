@@ -15,10 +15,9 @@ namespace YouAre.MVVM.ViewModel
         // Subviews.
         public UsersSubViewModel UsersSubV { get; set; }
         public PostsSubViewModel PostsSubV {  get; set; }
-        public ChatsSubViewModel ChatsSubV {  get; set; }
         public ProfileSubViewModel ProfileSubV {  get; set; }
 
-        private object _currentSubview;
+        public object _currentSubview;
 
         public object CurrentSubview
         {
@@ -37,7 +36,6 @@ namespace YouAre.MVVM.ViewModel
             _server = new Server("http://localhost:5131");
             UsersSubV = new UsersSubViewModel(_server);
             PostsSubV = new PostsSubViewModel();
-            ChatsSubV = new ChatsSubViewModel();
             ProfileSubV = new ProfileSubViewModel();
             CurrentSubview = PostsSubV;
 
@@ -51,10 +49,6 @@ namespace YouAre.MVVM.ViewModel
                 CurrentSubview = PostsSubV;
             });
 
-            ChatsCommand = new RelayCommand(o =>
-            {
-                CurrentSubview = ChatsSubV;
-            });
 
             ProfilesCommand = new RelayCommand(o =>
             {
