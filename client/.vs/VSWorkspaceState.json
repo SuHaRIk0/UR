@@ -5,7 +5,8 @@
     "\\YouAre\\YouAre",
     "\\YouAre\\YouAre\\MVVM",
     "\\YouAre\\YouAre\\MVVM\\Model",
-    "\\YouAre\\YouAre\\MVVM\\View"
+    "\\YouAre\\YouAre\\MVVM\\View",
+    "\\YouAre\\YouAre\\MVVM\\View\\Subviews"
   ],
   "SelectedNode": "\\YouAre\\YouAre\\MVVM\\Model\\Server.cs",
   "PreviewInSolutionExplorer": false

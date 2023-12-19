@@ -15,9 +15,6 @@
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Blue.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <DataTemplate DataType="{x:Type subViewModel:ChatsSubViewModel}" >
-                <subview:Chats/>
-            </DataTemplate>
             <DataTemplate DataType="{x:Type subViewModel:PostsSubViewModel}" >
                 <subview:Posts/>
             </DataTemplate>

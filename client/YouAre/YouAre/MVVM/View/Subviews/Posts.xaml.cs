@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MaterialDesignThemes.Wpf;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using YouAre.MVVM.Model;
 
 namespace YouAre.MVVM.View.Subviews
@@ -31,6 +20,29 @@ namespace YouAre.MVVM.View.Subviews
             lvDataBinding.ItemsSource = posts;
         }
 
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var createPostPopup = new CreatePostPopup();
+
+            createPostPopup.DataContext = DataContext;
+
+            Window popupWindow = new Window
+            {
+                Content = createPostPopup,
+                SizeToContent = SizeToContent.WidthAndHeight,
+                WindowStyle = WindowStyle.ToolWindow,
+                ResizeMode = ResizeMode.NoResize,
+                WindowStartupLocation = WindowStartupLocation.CenterScreen
+            };
+
+            bool? result = popupWindow.ShowDialog();
+
+            if (result.HasValue && result.Value)
+            {
+                InitializeDataAsync_1();
+            }
+        }
+
         private void Card_LayoutUpdated(object sender, EventArgs e)
         {
 
@@ -40,5 +52,7 @@ namespace YouAre.MVVM.View.Subviews
         {
 
         }
+
+
     }
 }

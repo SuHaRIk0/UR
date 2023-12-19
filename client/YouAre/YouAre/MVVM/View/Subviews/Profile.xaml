@@ -9,65 +9,56 @@
              mc:Ignorable="d" 
              d:DesignHeight="760" d:DesignWidth="636">
 
-    <materialDesign:Card Margin="7" UniformCornerRadius="15" Background="Transparent" LayoutUpdated="Card_LayoutUpdated">
-        <StackPanel>
-            <!-- View/Edit User Profile Header -->
-            <TextBlock Text="User Profile"
-                       HorizontalAlignment="Center"
-                       FontSize="22"
+    <materialDesign:Card Margin="7"
+                         UniformCornerRadius="15"
+                         Background="Transparent"
+                         LayoutUpdated="Card_LayoutUpdated">
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center">
+            <Border Width="240" Height="240"
+                    Background="#000"
+                    Margin="0 40 0 0"
+                    CornerRadius="120">
+                <Border.Clip>
+                    <RectangleGeometry Rect="0,0,240,240"
+                                       RadiusX="120"
+                                       RadiusY="120"/>
+                </Border.Clip>
+                <Image x:Name="lvProfileImage"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Stretch="UniformToFill"/>
+            </Border>
+            <TextBlock x:Name="lvID"
+                       Foreground="LightGray"
+                       FontSize="18"
+                       FontWeight="SemiBold"
+                       Margin="0 5 0 0"
+                       HorizontalAlignment="Center"/>
+            <TextBlock x:Name="lvUsername"
+                       Foreground="LightGoldenrodYellow"
+                       FontSize="24"
                        FontWeight="Bold"
                        Margin="0 15 0 0"
-                       Foreground="#fff"/>
-
-            <!-- User Profile Display -->
-            <StackPanel x:Name="ProfileDisplayPanel" Visibility="Visible">
-                <materialDesign:Card UniformCornerRadius="15" Background="#443763" Width="580" Height="180">
-                    <StackPanel>
-                        <!-- Profile Photo -->
-                        <Image Source="{Binding ProfilePhoto}" Width="100" Height="100" Margin="10"/>
-
-                        <!-- Caption and Username -->
-                        <TextBlock Text="{Binding Caption}"
-                                   Margin="10 5"
-                                   FontWeight="Bold"
-                                   FontSize="18"
-                                   Foreground="#fff"
-                                   VerticalAlignment="Center"/>
-
-                        <!-- Description -->
-                        <TextBlock Text="{Binding Description}"
-                                   Margin="10 0"
-                                   FontSize="14"
-                                   Foreground="#fff"/>
-                    </StackPanel>
-                </materialDesign:Card>
-
-                <!-- Define the lvDataBinding ListView -->
-                <ListView Name="lvDataBinding"
-                          ScrollViewer.VerticalScrollBarVisibility="Visible"
-                          ScrollViewer.CanContentScroll="False">
-                    <!-- Define the ListView's item template and other properties -->
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <!-- Define the item template content here -->
-                            <!-- For example, you can use a TextBlock to display the data -->
-                            <TextBlock Text="{Binding SomeProperty}" />
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-
-            </StackPanel>
-
-            <!-- User Profile Edit -->
-            <StackPanel x:Name="ProfileEditPanel" Visibility="Collapsed">
-                <!-- Add TextBoxes or other controls for editing profile information -->
-
-                <Button Content="Save Changes" Command="{Binding SaveChangesCommand}" Margin="0 10"/>
-            </StackPanel>
-
-            <!-- Toggle between Display and Edit modes -->
-            <!--<ToggleButton Content="Edit Profile" x:Name="EditToggle" HorizontalAlignment="Center" VerticalAlignment="Center"
-                          Checked="EditToggle_Checked" Unchecked="EditToggle_Unchecked"/>-->
+                       HorizontalAlignment="Center"/>
+            <TextBlock x:Name="lvDescription"
+                       Foreground="LightGray"
+                       FontSize="18"
+                       FontWeight="SemiBold"
+                       Margin="0 5 0 0"
+                       HorizontalAlignment="Center"/>
+            <Button Background="LightGoldenrodYellow"
+                    Width="240"
+                    Height="35"
+                    Content="Змінити Зображення"
+                    Foreground="#000"
+                    Margin="0 15 0 0" Click="Button_Click"/>
+            <Button Background="LightGoldenrodYellow"
+        Width="240"
+        Height="35"
+        Content="Редагувати Опис"
+        Foreground="#000"
+        Margin="0 5 0 0" Click="Button_Click_1"/>
         </StackPanel>
     </materialDesign:Card>
 </UserControl>

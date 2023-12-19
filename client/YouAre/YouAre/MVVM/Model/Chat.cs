@@ -9,9 +9,6 @@ namespace YouAre.MVVM.Model
     public class Chat
     {
         public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? Description { get; set; }
-        public List<int>? Messages { get; set; }
-        public List<int>? Members { get; set; }
+        public List<Message> Messages { get; set; }
     }
 }

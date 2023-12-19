@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="YouAre.MVVM.View.Subviews.EditAvaPopup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:YouAre.MVVM.View.Subviews"
+             Background="#031C42"
+             mc:Ignorable="d" d:DesignWidth="400" Height="236">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <Border Grid.Row="0" Background="#FFADD8E6" CornerRadius="10" Margin="10">
+            <StackPanel>
+                <Label Content="New picture:" VerticalAlignment="Center" />
+                <TextBox Text="{Binding NewPostTitle, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Margin="10"/>
+            </StackPanel>
+        </Border>
+
+        <Button Grid.Row="4" Content="Create Post" Command="{Binding CreatePostCommand}" VerticalAlignment="Top" Margin="10" Click="Button_Click"/>
+    </Grid>
+</UserControl>

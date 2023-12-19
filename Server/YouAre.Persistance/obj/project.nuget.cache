@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MNHMMITlTged6ovuvdcwWJ1xi6haTvpEDsjmlHXaAM4EeM6pChQ/WntjEFU/igPHfUNAviWQmGrTJWiICALkjQ==",
+  "dgSpecHash": "K3KMMnoF31qh6m+VB0K6dlPXA5Grrr6h1MAQCiDxJiHdWPqI+NKRID0KH7KA2QJnyxqT38Je7pKSbVfJwsB0+Q==",
   "success": true,
-  "projectFilePath": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
+  "projectFilePath": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.Persistance\\YouAre.Persistent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
@@ -80,6 +80,8 @@
     "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.nodatime\\8.0.0\\npgsql.entityframeworkcore.postgresql.nodatime.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql.nodatime\\8.0.0\\npgsql.nodatime.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

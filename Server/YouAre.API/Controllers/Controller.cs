@@ -9,6 +9,8 @@ using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+
 
 [ApiController]
 [Route("api/[controller]")]
@@ -82,22 +84,50 @@ public class UserController : ControllerBase
     [HttpPost("send_message")]
     public IActionResult SendMessage([FromBody] Message model)
     {
-        // Клієнт відправляє свій айді, айді того, з ким відкритий чат, повідомлення і час відправлення.
-        // Сервер записує це в базу даних.
-
-        var newMessage = new Message
+        try
         {
-            AuthorId = model.AuthorId,
-            RecipientId = model.RecipientId,
-            Text = model.Text,
-            SentAt = DateTime.Now
-        };
+            // Клієнт відправляє свій айді, айді того, з ким відкритий чат, повідомлення і час відправлення.
+            // Сервер записує це в базу даних.
 
-        _context.Messages.Add(newMessage);
-        _context.SaveChanges();
+            var newMessage = new Message
+            {
+                AuthorId = model.AuthorId,
+                RecipientId = model.RecipientId,
+                Text = model.Text,
+                SentAt = DateTime.UtcNow
+            };
 
-        return Ok("Повідомлення відправлено успішно");
+            _context.Messages.Add(newMessage);
+            _context.SaveChanges();
+
+            return Ok("Повідомлення відправлено успішно");
+        }
+        catch (Exception ex)
+        {
+            // Handle exceptions as needed
+            return BadRequest("Помилка при відправленні повідомлення");
+        }
     }
+
+    [Authorize]
+    [HttpGet("chats")]
+    public IActionResult GetChat([FromQuery] int user1Id, [FromQuery] int user2Id)
+    {
+        try
+        {
+            var chat = _context.Messages
+                .Where(m => (m.AuthorId == user1Id && m.RecipientId == user2Id) ||
+                            (m.AuthorId == user2Id && m.RecipientId == user1Id))
+                .ToList();
+
+            return Ok(chat);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, "Internal server error");
+        }
+    }
+
 
     [Authorize]
     [HttpGet("all_users")]
@@ -113,19 +143,32 @@ public class UserController : ControllerBase
     [HttpGet("posts")]
     public IActionResult GetAllPublications()
     {
-        // Пости - при запиті з впф сервер виводить всі наявні публікації в порядку від найновіших до старіших.
+        var posts = _context.Publications
+            .OrderByDescending(p => p.PostAt)
+            .ToList();
 
-        var posts = _context.Publications.OrderByDescending(p => p.PostAt).ToList();
+        var publications = posts.Select(q => new Publication
+        {
+            Id = q.Id,
+            AuthorId = q.AuthorId,
+            PostAt = q.PostAt,
+            Text = q.Text,
+            Picture = q.Picture,
+        }).ToList();
 
-        return Ok(posts);
+        return Ok(publications);
     }
+
+
 
     [Authorize]
     [HttpPost("create_post")]
     public IActionResult CreatePost([FromBody] Publication model)
     {
-        // Створення поста - при запиті відправляємо посилання на зображення, текст та наш айді.
-        // Сервер створює такий рядок в бд.
+        if (model == null)
+        {
+            return BadRequest("Invalid request body");
+        }
 
         var newPublication = new Publication
         {
@@ -244,28 +287,8 @@ public class UserController : ControllerBase
     }
 
     [Authorize]
-    [HttpGet("chats")]
-    public IActionResult GetUsersWithMessages(int userId)
-    {
-        // Отримати всі айді учасників, які спілкувалися з користувачем userId
-        var usersWithMessages = _context.Messages
-            .Where(m => m.AuthorId == userId || m.RecipientId == userId)
-            .SelectMany(m => new[] { m.AuthorId, m.RecipientId })
-            .Distinct()
-            .Where(id => id != userId)
-            .ToList();
-
-        // Отримати інформацію про користувачів за їх айді
-        var users = _context.Profiles
-            .Where(u => usersWithMessages.Contains(u.Id))
-            .Select(u => new { u.Id, u.Username })
-            .ToList();
-
-        return Ok(users);
-    }
-
-    [Authorize]
     [HttpGet("profile")]
+    [HttpPost("profile")]
     public IActionResult GetUserProfile(int userId)
     {
         var userProfile = _context.Profiles

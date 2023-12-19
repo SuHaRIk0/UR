@@ -4,11 +4,9 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
 using System.Windows;
+using System.Windows.Controls;
 //using System.Text.Json;
 //using System.Text.Json.Serialization;
-
-
-
 
 namespace YouAre.MVVM.Model
 {
@@ -70,14 +68,13 @@ namespace YouAre.MVVM.Model
         //=====================================================================================================================
         //                                              C   H   A   T   S
         //=====================================================================================================================
-        public async Task<List<UsersProfile>> GetChatsAsync()
+        public async Task<List<Chat>> GetChatsAsync()
         {
             try
             {
                 if (string.IsNullOrEmpty(_accessToken))
                 {
-                    MessageBox.Show("Будь ласка, увійдіть в систему.");
-                    return new List<UsersProfile>();
+                    return new List<Chat>();
                 }
 
                 using HttpClient client = new()
@@ -95,7 +92,7 @@ namespace YouAre.MVVM.Model
 
                     try
                     {
-                        List<UsersProfile> responseData = JsonConvert.DeserializeObject<List<UsersProfile>>(responseContent);
+                        List<Chat> responseData = JsonConvert.DeserializeObject<List<Chat>>(responseContent);
 
                         if (responseData != null)
                         {
@@ -103,111 +100,115 @@ namespace YouAre.MVVM.Model
                         }
                         else
                         {
-                            MessageBox.Show("Помилка: пуста відповідь від сервера.");
-                            return new List<UsersProfile>();
+                            return new List<Chat>();
                         }
                     }
                     catch (JsonException ex)
                     {
-                        MessageBox.Show($"Помилка при десеріалізації відповіді сервера: {ex.Message}");
-                        return new List<UsersProfile>();
+                        return new List<Chat>();
                     }
                 }
                 else
                 {
-                    MessageBox.Show($"Помилка при отриманні відповіді від сервера: {response.StatusCode}");
-                    return new List<UsersProfile>();
+                    return new List<Chat>();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Помилка: {ex.Message}");
-                return new List<UsersProfile>();
+                return new List<Chat>();
             }
         }
 
 
-        public async Task<Chat> GetChatAsync(int id)
+        public async Task<Chat> GetChatAsync(int user2Id)
         {
-            using HttpClient client = new()
+            try
             {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.GetFromJsonAsync<Chat>($"chats/{id}/");
-            return response;
+                if (string.IsNullOrEmpty(_accessToken))
+                {
+                    return null;
+                }
+
+                using HttpClient client = new()
+                {
+                    BaseAddress = new Uri(_baseApiUrl)
+                };
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+
+                var response = await client.GetAsync($"api/user/chats?user1Id={_userId}&user2Id={user2Id}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+
+                    try
+                    {
+                        Chat responseData = JsonConvert.DeserializeObject<Chat>(responseContent);
+
+                        if (responseData != null)
+                        {
+                            return responseData;
+                        }
+                        else
+                        {
+                            return null;
+                        }
+                    }
+                    catch (JsonException ex)
+                    {
+                        return null;
+                    }
+                }
+                else
+                {
+                    // Якщо є помилка HTTP, можливо, ви хочете генерувати виняток замість виведення MessageBox
+                    throw new HttpRequestException($"Error: {response.StatusCode}");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
-        public async Task<string?> PostChatAsync(Chat model)
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.PostAsJsonAsync("chats", model);
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        }
 
-        public async Task<string?> PutChatAsync(Chat model)
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.PutAsJsonAsync("chats", model);
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        }
 
-        public async Task<string?> DeleteChatAsync(int id)
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.DeleteAsync($"chats/{id}");
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        }
         //=====================================================================================================================
         //                                          M  E  S  S   A   G   E   S
         //=====================================================================================================================
-        public async Task<List<Message>> GetMessagesAsync()
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var responce = await client.GetFromJsonAsync<List<Message>>($"messages/");
-            return responce ?? [];
-        }
-
-        public async Task<Message> GetMessageAsync(int id)
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.GetFromJsonAsync<Message>($"messages/{id}/");
-            return response;
-        }
-
         public async Task<string?> PostMessageAsync(Message model)
         {
-            using HttpClient client = new()
+            try
             {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.PostAsJsonAsync("messages", model);
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
+                if (string.IsNullOrEmpty(_accessToken))
+                {
+                    MessageBox.Show("Будь ласка, увійдіть в систему.");
+                    return null;
+                }
+
+                using HttpClient client = new()
+                {
+                    BaseAddress = new Uri(_baseApiUrl)
+                };
+
+                var model1 = new Message
+                {
+                    AuthorId = _userId,
+                    RecipientId = model.RecipientId,
+                    Text = model.Text,
+                };
+
+                var response = await client.PostAsJsonAsync($"api/user/send_message", model1);
+
+                return response.IsSuccessStatusCode ? await response.Content.ReadAsStringAsync() : null;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
-        public async Task<string?> PutMessageAsync(Message model)
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.PutAsJsonAsync("messages", model);
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        }
 
         public async Task<string?> DeleteMessageAsync(int id)
         {
@@ -278,28 +279,47 @@ namespace YouAre.MVVM.Model
                 return new List<Publication>();
             }
         }
-
-
-
-
         public async Task<string?> PostPostAsync(Publication model)
         {
-            using HttpClient client = new()
+            try
             {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.PostAsJsonAsync("publications", model);
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        }
+                if (string.IsNullOrEmpty(_accessToken))
+                {
+                    MessageBox.Show("Будь ласка, увійдіть в систему.");
+                    return null;
+                }
 
-        public async Task<string?> PutPostAsync(Publication model)
-        {
-            using HttpClient client = new()
+                using HttpClient client = new()
+                {
+                    BaseAddress = new Uri(_baseApiUrl)
+                };
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var jsonModel = Newtonsoft.Json.JsonConvert.SerializeObject(model);
+                var content = new StringContent(jsonModel, Encoding.UTF8, "application/json");
+
+                var response = await client.PostAsync("api/user/create_post", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+                    return responseContent;
+                }
+                else
+                {
+                    MessageBox.Show($"Помилка при відправці посту: {response.StatusCode}");
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"Error Content: {errorContent}");
+                    return null;
+                }
+            }
+            catch (Exception ex)
             {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-            var response = await client.PutAsJsonAsync("publications", model);
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
+                MessageBox.Show($"Помилка: {ex.Message}");
+                return null;
+            }
         }
 
         public async Task<string?> DeletePostAsync(int id)
@@ -310,10 +330,101 @@ namespace YouAre.MVVM.Model
             };
             var response = await client.DeleteAsync($"publications/{id}");
             return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
+
         }
+
+
+        public async Task<string?> EditAvaAsync(UsersProfile model)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(_accessToken))
+                {
+                    MessageBox.Show("Будь ласка, увійдіть в систему.");
+                    return null;
+                }
+
+                using HttpClient client = new()
+                {
+                    BaseAddress = new Uri(_baseApiUrl)
+                };
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var jsonModel = Newtonsoft.Json.JsonConvert.SerializeObject(model);
+                var content = new StringContent(jsonModel, Encoding.UTF8, "application/json");
+
+                var response = await client.PostAsync("update_avatar", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"Avatar updated successfully: {responseContent}");
+                }
+                else
+                {
+                    MessageBox.Show($"Error updating avatar: {response.StatusCode}");
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"Error Content: {errorContent}");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+
+            return null; // Add this line to address the compilation error
+        }
+
+        public async Task<string?> EditDescAsync(UsersProfile model)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(_accessToken))
+                {
+                    MessageBox.Show("Будь ласка, увійдіть в систему.");
+                    return null;
+                }
+
+                using HttpClient client = new()
+                {
+                    BaseAddress = new Uri(_baseApiUrl)
+                };
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var jsonModel = Newtonsoft.Json.JsonConvert.SerializeObject(model);
+                var content = new StringContent(jsonModel, Encoding.UTF8, "application/json");
+
+                var response = await client.PostAsync("update_description", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"description updated successfully: {responseContent}");
+                }
+                else
+                {
+                    MessageBox.Show($"Error updating description: {response.StatusCode}");
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"Error Content: {errorContent}");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+
+            return null; // Add this line to address the compilation error
+        }
+
+
         //=====================================================================================================================
         //                                               U   S   E   R   S
         //=====================================================================================================================
+
         public async Task<List<UsersProfile>> GetUsersAsync()
         {
             if (string.IsNullOrEmpty(_accessToken))
@@ -369,14 +480,12 @@ namespace YouAre.MVVM.Model
                 return new List<UsersProfile>();
             }
         }
-
-
-        public async Task<List<UsersProfile>> GetUserAsync()
+        public async Task<UsersProfile> GetUserAsync()
         {
             if (string.IsNullOrEmpty(_accessToken))
             {
                 MessageBox.Show("Будь ласка, увійдіть в систему.");
-                return new List<UsersProfile>();
+                return UsersProfile.Empty;
             }
 
             try
@@ -388,7 +497,7 @@ namespace YouAre.MVVM.Model
 
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
 
-                var response = await client.GetAsync($"api/User/profile/{_userId}"); 
+                var response = await client.GetAsync($"api/User/profile?userId={_userId}");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -396,75 +505,35 @@ namespace YouAre.MVVM.Model
 
                     try
                     {
-                        List<UsersProfile> responseData = JsonConvert.DeserializeObject<List<UsersProfile>>(responseContent);
+                        UsersProfile userProfile = JsonConvert.DeserializeObject<UsersProfile>(responseContent);
 
-                        if (responseData != null)
+                        if (userProfile != null)
                         {
-                            return responseData;
+                            return userProfile;
                         }
                         else
                         {
                             MessageBox.Show("Помилка: не вдалося десеріалізувати відповідь сервера.");
-                            return new List<UsersProfile>();
+                            return UsersProfile.Empty;
                         }
                     }
                     catch (JsonException ex)
                     {
                         MessageBox.Show($"Помилка: {ex.Message}");
-                        return new List<UsersProfile>();
+                        return UsersProfile.Empty;
                     }
                 }
                 else
                 {
                     MessageBox.Show($"Помилка: {response.StatusCode}");
-                    return new List<UsersProfile>();
+                    return UsersProfile.Empty;
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Помилка: {ex.Message}");
-                return new List<UsersProfile>();
+                return UsersProfile.Empty;
             }
         }
-
-
-        //public async Task<string?> PostUserAsync(User model)
-        //{
-        //    using HttpClient client = new()
-        //    {
-        //        BaseAddress = new Uri(_baseApiUrl)
-        //    };
-
-        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
-
-        //    var response = await client.PostAsJsonAsync("publications", model);
-        //    return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        //}
-
-        public async Task<string?> PutUserAsync(User model)
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri(_baseApiUrl)
-            };
-
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
-
-            var response = await client.PutAsJsonAsync("publications", model);
-            return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        }
-
-        //public async Task<string?> DeleteUserAsync(int id)
-        //{
-        //    using HttpClient client = new()
-        //    {
-        //        BaseAddress = new Uri(_baseApiUrl)
-        //    };
-
-        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
-
-        //    var response = await client.DeleteAsync($"publications/{id}");
-        //    return response.IsSuccessStatusCode ? response.Content.ToString() : " ";
-        //}
     }
 }

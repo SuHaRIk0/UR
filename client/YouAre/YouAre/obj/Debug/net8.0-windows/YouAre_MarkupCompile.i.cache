@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\
+D:\University\3_course\desctop_1\client\YouAre\YouAre\obj\Debug\net8.0-windows\
 YouAre
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\App.xaml
-8-1986193085
+D:\University\3_course\desctop_1\client\YouAre\YouAre\App.xaml
+9615669518
 
-27-38123520
+30-104265931
 204787082580
-MainWindow.xaml;MVVM\View\ApplicationYouAre.xaml;MVVM\View\Login.xaml;MVVM\View\Register.xaml;MVVM\View\Subviews\Chats.xaml;MVVM\View\Subviews\Posts.xaml;MVVM\View\Subviews\Profile.xaml;MVVM\View\Subviews\Users.xaml;
+MainWindow.xaml;MVVM\View\ApplicationYouAre.xaml;MVVM\View\Login.xaml;MVVM\View\Register.xaml;MVVM\View\Subviews\CreatePostPopup.xaml;MVVM\View\Subviews\EditAvaPopup.xaml;MVVM\View\Subviews\Posts.xaml;MVVM\View\Subviews\Profile.xaml;MVVM\View\Subviews\Users.xaml;
 
-True
+False
 

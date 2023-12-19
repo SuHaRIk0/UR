@@ -16,6 +16,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.6",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "NUnit": "4.0.1",
+          "NUnit3TestAdapter": "4.5.0",
           "Newtonsoft.Json": "13.0.3",
           "Npgsql": "8.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
@@ -845,6 +847,19 @@
           }
         }
       },
+      "NUnit/4.0.1": {
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "NUnit3TestAdapter/4.5.0": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -1756,6 +1771,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "8.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.6",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "NUnit": "4.0.1",
+          "NUnit3TestAdapter": "4.5.0",
           "Newtonsoft.Json": "13.0.3",
           "Npgsql": "8.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
@@ -2309,6 +2326,20 @@
       "sha512": "sha512-7CtWDIP2MOrlmfOOc/euhfwf5H2g2Shg/Ov7ku5oqF8PrnIXROZSAnLYVwXL3OUbP3Ar2B3ZZiCsyvRxODWYeQ==",
       "path": "npgsql.nodatime/8.0.0",
       "hashPath": "npgsql.nodatime.8.0.0.nupkg.sha512"
+    },
+    "NUnit/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jNTHZ01hJsDNPDSBycoHpavFZUBf9vRVQLCyuo78LRrrFj6Ol/CeqK+NIeTk5d8Eycjk59KseWb7X5Ge6z7CgQ==",
+      "path": "nunit/4.0.1",
+      "hashPath": "nunit.4.0.1.nupkg.sha512"
+    },
+    "NUnit3TestAdapter/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s8JpqTe9bI2f49Pfr3dFRfoVSuFQyraTj68c3XXjIS/MRGvvkLnrg6RLqnTjdShX+AdFUCCU/4Xex58AdUfs6A==",
+      "path": "nunit3testadapter/4.5.0",
+      "hashPath": "nunit3testadapter.4.5.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

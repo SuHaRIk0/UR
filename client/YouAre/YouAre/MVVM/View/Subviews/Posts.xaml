@@ -7,11 +7,14 @@
              xmlns:viewModel="clr-namespace:YouAre.MVVM.ViewModel.SubViewModel"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="760" d:DesignWidth="636">
+             d:DesignHeight="760" d:DesignWidth="636"
+             xmlns:converters="clr-namespace:YouAre.MVVM.View.Converters">
 
-    <materialDesign:Card
-        Margin="7" UniformCornerRadius="15"
-        Background="Transparent" LayoutUpdated="Card_LayoutUpdated">
+    <UserControl.Resources>
+        <converters:ImagePathConverter x:Key="ImagePathConverter"/>
+    </UserControl.Resources>
+
+    <materialDesign:Card Margin="7" UniformCornerRadius="15" Background="Transparent" LayoutUpdated="Card_LayoutUpdated">
         <StackPanel>
             <TextBlock Text="Hello from Posts page!"
                        HorizontalAlignment="Center"
@@ -19,35 +22,35 @@
                        FontWeight="Bold"
                        Margin="0 15 0 0"
                        Foreground="#fff"/>
-            <ListView Margin="10" Name="lvDataBinding"
-                      ScrollViewer.VerticalScrollBarVisibility="Visible"
-                      ScrollViewer.CanContentScroll="False">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <materialDesign:Card UniformCornerRadius="15"
-                                             Background="#443763"
-                                             Width="580"
-                                             Height="90">
-                            <StackPanel HorizontalAlignment="Left"
-                                        Orientation="Horizontal">
-                                <!-- Add your post-related bindings here -->
-                                <TextBlock Text="{Binding Title}"
-                                           Margin="25 0 0 0"
-                                           FontWeight="Bold"
-                                           FontSize="18"
-                                           Foreground="#fff"
-                                           VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding Content}"
-                                           Margin="10 0 0 0"
-                                           FontSize="14"
-                                           Foreground="#fff"
-                                           VerticalAlignment="Center"/>
-                            </StackPanel>
-                        </materialDesign:Card>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+
+            <!--<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">-->
+            <ListView Margin="10" Name="lvDataBinding" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                        <materialDesign:Card Width="380" Height="400" Background="Transparent">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding PostAt}" FontSize="14" Foreground="#fff" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Title: " FontSize="14" Foreground="#fff" VerticalAlignment="Center"/>
+                                        <TextBlock Text="{Binding Text}" FontWeight="Bold" FontSize="14" Foreground="#fff" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                    <TextBlock Width="196" Height="140" Text="{Binding Picture}" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            <!--</ScrollViewer>-->
+
+            <Button Content="+"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="30"
+                    Command="{Binding OpenCreatePostCommand}" Click="Button_Click" />
         </StackPanel>
     </materialDesign:Card>
 </UserControl>
-    

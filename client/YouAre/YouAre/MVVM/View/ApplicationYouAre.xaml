@@ -47,13 +47,7 @@
                     </Image.RenderTransform>
                 </Image>
             </RadioButton>
-            <RadioButton
-                Margin="0 5 0 0"
-                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                ToolTip="Chats"
-                Command="{Binding ChatsCommand}">
-                <Image Source="../../Assets/Chats.ico" Height="32" Width="30"/>
-            </RadioButton>
+            
             <RadioButton 
                 Margin="0 5 0 0"
                 Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"

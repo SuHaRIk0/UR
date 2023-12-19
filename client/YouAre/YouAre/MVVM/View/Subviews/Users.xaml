@@ -18,30 +18,119 @@
                        FontSize="22"
                        FontWeight="Bold"
                        Margin="0 15 0 0"
-                       Foreground="#fff"/>
-            <ListView Margin="10" Name="lvDataBinding"
-                      ScrollViewer.VerticalScrollBarVisibility="Visible"
-                      ScrollViewer.CanContentScroll="False">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <materialDesign:Card UniformCornerRadius="15"
-                                             Background="#443763"
-                                             Width="580"
-                                             Height="90">
-                            <StackPanel HorizontalAlignment="Left"
-                                        Orientation="Horizontal">
-                                <Image Source="../../../Assets/empty_frame.ico"/>
-                                <TextBlock Text="{Binding Username}"
-                                           Margin="25 0 0 0"
-                                            FontWeight="Bold"
-                                            FontSize="18"
-                                           Foreground="#fff"
-                                           VerticalAlignment="Center"/>
-                            </StackPanel>
-                        </materialDesign:Card>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                       Foreground="#fff"
+                       x:Name="lvHeaderText"/>
+            <Grid>
+                <ListBox Margin="10" Name="lvDataBinding"
+          ScrollViewer.VerticalScrollBarVisibility="Visible"
+          ScrollViewer.CanContentScroll="False"
+          materialDesign:ListBoxItemAssist.ShowSelection="False">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <materialDesign:Card UniformCornerRadius="15"
+                                 Background="#443763"
+                                 Width="550"
+                                 Height="90">
+                                <StackPanel HorizontalAlignment="Left"
+                            Orientation="Horizontal"
+                            VerticalAlignment="Center">
+                                    <Border Width="70" Height="70"
+                            Background="Transparent">
+                                        <Border.Clip>
+                                            <RectangleGeometry RadiusX="35"
+                                               RadiusY="35"
+                                               Rect="0 0 70 70"/>
+                                        </Border.Clip>
+                                        <Image Source="{Binding ProfilePhoto}"
+                               Margin="10 0 0 0"
+                               Stretch="UniformToFill"
+                               HorizontalAlignment="Left"
+                               VerticalAlignment="Top"/>
+                                    </Border>
+                                    <StackPanel Orientation="Vertical" VerticalAlignment="Top"
+                                Width="150">
+                                        <TextBlock Text="{Binding Username}"
+                                   Margin="5 3 0 0"
+                                   FontWeight="Bold"
+                                   FontSize="22"
+                                   Foreground="LightGoldenrodYellow"
+                                   VerticalAlignment="Center"/>
+                                        <TextBlock Text="{Binding Description}"
+                                   Margin="5 0 0 0"
+                                   FontWeight="Bold"
+                                   FontSize="14"
+                                   Foreground="LightGray"
+                                   VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Vertical"
+                                VerticalAlignment="Top"
+                                HorizontalAlignment="Center"
+                                Width="265" Cursor="Hand">
+                                        <materialDesign:Badged Badge="1" HorizontalAlignment="Right"
+                                               Margin="0 5 0 0">
+                                            <Button Content="Chat" Width="84" Cursor="Hand" Click="Button_ClickAsync"/>
+                                        </materialDesign:Badged>
+                                        <TextBlock Text="{Binding IdText}"
+                                   Margin="0 7 15 0"
+                                   FontWeight="Bold"
+                                   FontSize="14"
+                                   Foreground="LightGray"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Right"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <materialDesign:Card x:Name="lvChatPage"
+                                     Visibility="Hidden"
+                                     Height="710"
+                                     UniformCornerRadius="15"
+                                     Background="#262c33">
+                    <StackPanel Height="760">
+                        <TextBlock x:Name="lvUsername" FontSize="22"
+                                   FontWeight="Bold"
+                                   Foreground="LightGoldenrodYellow"
+                                   HorizontalAlignment="Center"
+                                   Margin="0 10 0 0"/>
+                        <StackPanel Height="585">
+                            <ListBox x:Name="lvMessageBinding" ItemsSource="{Binding Messages}">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <materialDesign:Card Width="300" Background="#272836">
+                                            <StackPanel>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="{Binding Author}" FontSize="16" FontWeight="SemiBold" Foreground="LightGoldenrodYellow"/>
+                                                    <TextBlock Text="{Binding SentAt}" FontSize="12" Foreground="LightGray"/>
+                                                </StackPanel>
+                                                <TextBlock Text="{Binding Text}" FontSize="14" Foreground="LightGray"/>
+                                            </StackPanel>
+                                        </materialDesign:Card>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox Height="40"
+                                     MinWidth="10"
+                                     Width="550"
+                                     materialDesign:HintAssist.Hint="Enter a message..."
+                                     AcceptsReturn="True"
+                                     SpellCheck.IsEnabled="True"
+                                     TextWrapping="Wrap"
+                                     VerticalScrollBarVisibility="Auto"
+                                     x:Name="lvTextBox"
+                                     Foreground="LightGray"
+                                     FontSize="14"/>
+                            <Button Content="Send" Click="Button_Click_1"/>
+                        </StackPanel>
+                    </StackPanel>
+                </materialDesign:Card>
+                
+            </Grid>
         </StackPanel>
     </materialDesign:Card>
 </UserControl>
