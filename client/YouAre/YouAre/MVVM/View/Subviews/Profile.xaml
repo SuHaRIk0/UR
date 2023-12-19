@@ -52,13 +52,13 @@
                     Height="35"
                     Content="Змінити Зображення"
                     Foreground="#000"
-                    Margin="0 15 0 0" Click="Button_Click"/>
+                    Margin="0 15 0 0"/>
             <Button Background="LightGoldenrodYellow"
         Width="240"
         Height="35"
         Content="Редагувати Опис"
         Foreground="#000"
-        Margin="0 5 0 0" Click="Button_Click_1"/>
+        Margin="0 5 0 0"/>
         </StackPanel>
     </materialDesign:Card>
 </UserControl>

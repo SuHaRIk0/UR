@@ -20,7 +20,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouAre-WebEnd.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a383e4f835ab09dc53ab6a18b6170dd25eb5619")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouAre-WebEnd.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouAre-WebEnd.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,10 +1,12 @@
 ﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
 //using System.Text.Json;
 //using System.Text.Json.Serialization;
 
@@ -58,6 +60,13 @@ namespace YouAre.MVVM.Model
                         return new Account();
                     }
                 }
+            }
+            else
+            {
+
+                MessageBox.Show("Один з Параметрів був введений невірно. Сробуйте ще.");
+
+                return null;
             }
 
             return null;
@@ -120,7 +129,7 @@ namespace YouAre.MVVM.Model
         }
 
 
-        public async Task<Chat> GetChatAsync(int user2Id)
+        public async Task<List<Message>> GetChatAsync(string Username)
         {
             try
             {
@@ -135,8 +144,9 @@ namespace YouAre.MVVM.Model
                 };
 
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                var response = await client.GetAsync($"api/user/chats?user1Id={_userId}&user2Id={user2Id}");
+                var response = await client.GetAsync($"api/user/chats?user1Id={_userId}&Username={Username}");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -144,30 +154,40 @@ namespace YouAre.MVVM.Model
 
                     try
                     {
-                        Chat responseData = JsonConvert.DeserializeObject<Chat>(responseContent);
+                        // Ensure the Chat class has a parameterless constructor
+                        List <Message> responseData = JsonConvert.DeserializeObject<List<Message>>(responseContent);
 
                         if (responseData != null)
                         {
-                            return responseData;
+                            //MessageBox.Show($"Server response: {responseData}");
+                            return new List<Message>();
                         }
                         else
                         {
-                            return null;
+                            MessageBox.Show($"Server response: null");
+                            return new List<Message>();
                         }
                     }
                     catch (JsonException ex)
                     {
-                        return null;
+                        // Log the response content and the exception message for debugging purposes
+                        Console.WriteLine($"Error deserializing JSON response: {ex.Message}");
+                        Console.WriteLine($"Response content: {responseContent}");
+
+                        // Rethrow the exception with a more informative message
+                        throw new JsonException("Error deserializing JSON response. See inner exception for details.", ex);
                     }
                 }
                 else
                 {
-                    // Якщо є помилка HTTP, можливо, ви хочете генерувати виняток замість виведення MessageBox
+                    MessageBox.Show($"Server error: {response.StatusCode} - {response.ReasonPhrase}");
                     throw new HttpRequestException($"Error: {response.StatusCode}");
                 }
             }
             catch (Exception ex)
             {
+                // Log or handle the general exception
+                Console.WriteLine($"An unexpected error occurred: {ex.Message}");
                 throw;
             }
         }
@@ -192,22 +212,45 @@ namespace YouAre.MVVM.Model
                     BaseAddress = new Uri(_baseApiUrl)
                 };
 
+
                 var model1 = new Message
                 {
+
                     AuthorId = _userId,
                     RecipientId = model.RecipientId,
                     Text = model.Text,
                 };
 
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var jsonModel = Newtonsoft.Json.JsonConvert.SerializeObject(model);
+                var content = new StringContent(jsonModel, Encoding.UTF8, "application/json");
+
                 var response = await client.PostAsJsonAsync($"api/user/send_message", model1);
 
-                return response.IsSuccessStatusCode ? await response.Content.ReadAsStringAsync() : null;
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                    // Log or display the successful result if needed
+                    //MessageBox.Show($"Server response: {result}");
+                    return result;
+                }
+                else
+                {
+                    // Log or display the error message if needed
+                    MessageBox.Show($"Server error: {response.StatusCode} - {response.ReasonPhrase}");
+                    return null;
+                }
             }
             catch (Exception ex)
             {
+                // Log or display the exception if needed
+                MessageBox.Show($"Exception: {ex.Message}");
                 return null;
             }
         }
+
 
 
         public async Task<string?> DeleteMessageAsync(int id)
@@ -246,6 +289,7 @@ namespace YouAre.MVVM.Model
                 if (response.IsSuccessStatusCode)
                 {
                     var responseContent = await response.Content.ReadAsStringAsync();
+                    //MessageBox.Show($"Server response: {responseContent}");
 
                     try
                     {
@@ -279,6 +323,7 @@ namespace YouAre.MVVM.Model
                 return new List<Publication>();
             }
         }
+
         public async Task<string?> PostPostAsync(Publication model)
         {
             try
@@ -294,10 +339,22 @@ namespace YouAre.MVVM.Model
                     BaseAddress = new Uri(_baseApiUrl)
                 };
 
+
+                var model1 = new Publication
+                {
+                    Text = model.Text,
+                    PostAt = DateTime.Now,
+                    Picture = model.Picture,
+                    AuthorId = _userId,
+                };
+
+
+                //MessageBox.Show($"Before sending: {model1}");
+
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                var jsonModel = Newtonsoft.Json.JsonConvert.SerializeObject(model);
+                var jsonModel = Newtonsoft.Json.JsonConvert.SerializeObject(model1);
                 var content = new StringContent(jsonModel, Encoding.UTF8, "application/json");
 
                 var response = await client.PostAsync("api/user/create_post", content);
@@ -305,6 +362,9 @@ namespace YouAre.MVVM.Model
                 if (response.IsSuccessStatusCode)
                 {
                     var responseContent = await response.Content.ReadAsStringAsync();
+
+                    //MessageBox.Show($"After sending: {model1}");
+
                     return responseContent;
                 }
                 else
@@ -360,7 +420,7 @@ namespace YouAre.MVVM.Model
                 if (response.IsSuccessStatusCode)
                 {
                     var responseContent = await response.Content.ReadAsStringAsync();
-                    MessageBox.Show($"Avatar updated successfully: {responseContent}");
+                    MessageBox.Show($"Аватар профілю змінний успішно: {responseContent}");
                 }
                 else
                 {
@@ -403,7 +463,7 @@ namespace YouAre.MVVM.Model
                 if (response.IsSuccessStatusCode)
                 {
                     var responseContent = await response.Content.ReadAsStringAsync();
-                    MessageBox.Show($"description updated successfully: {responseContent}");
+                    MessageBox.Show($"Опис змінено успішно: {responseContent}");
                 }
                 else
                 {

@@ -16,10 +16,10 @@ namespace YouAre.MVVM.View.Subviews
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            InitializeDataAsync_7();
+            InitializeDataAsync_8();
         }
 
-        private async void InitializeDataAsync_7()
+        private async void InitializeDataAsync_8()
         {
             var server = new Server("http://localhost:5131");
 

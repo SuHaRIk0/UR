@@ -30,6 +30,6 @@
             </StackPanel>
         </Border>
 
-        <Button Grid.Row="4" Content="Create Post" Command="{Binding CreatePostCommand}" VerticalAlignment="Top" Margin="10" Click="Button_Click"/>
+        <Button Grid.Row="4" Content="Create Post" Command="{Binding CreatePostCommand}" VerticalAlignment="Top" Margin="10" Click="Button_Click_start"/>
     </Grid>
 </UserControl>

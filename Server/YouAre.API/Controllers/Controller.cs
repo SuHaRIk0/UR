@@ -104,17 +104,25 @@ public class UserController : ControllerBase
         }
         catch (Exception ex)
         {
-            // Handle exceptions as needed
             return BadRequest("Помилка при відправленні повідомлення");
         }
     }
-
     [Authorize]
     [HttpGet("chats")]
-    public IActionResult GetChat([FromQuery] int user1Id, [FromQuery] int user2Id)
+    public IActionResult GetChat([FromQuery] int user1Id, [FromQuery] string Username)
     {
         try
         {
+            // Assuming there's a method to get user information by username
+            var user2 = _context.Profiles.SingleOrDefault(u => u.Username == Username);
+
+            if (user2 == null)
+            {
+                return NotFound("User not found");
+            }
+
+            var user2Id = user2.Id;
+
             var chat = _context.Messages
                 .Where(m => (m.AuthorId == user1Id && m.RecipientId == user2Id) ||
                             (m.AuthorId == user2Id && m.RecipientId == user1Id))
@@ -147,10 +155,10 @@ public class UserController : ControllerBase
             .OrderByDescending(p => p.PostAt)
             .ToList();
 
+
         var publications = posts.Select(q => new Publication
         {
             Id = q.Id,
-            AuthorId = q.AuthorId,
             PostAt = q.PostAt,
             Text = q.Text,
             Picture = q.Picture,

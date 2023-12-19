@@ -194,12 +194,10 @@ D:\University\3_course\des_1\client (2)\client\YouAre\YouAre\obj\Debug\net8.0-wi
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\bin\Debug\net8.0-windows\LiveCharts.dll
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\ApplicationYouAre.g.cs
-D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Chats.g.cs
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Posts.g.cs
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Users.g.cs
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\ApplicationYouAre.baml
-D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Chats.baml
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Posts.baml
 D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Users.baml
 D:\University\3_course\desctop_1\client\YouAre\YouAre\bin\Debug\net8.0-windows\YouAre.exe
@@ -246,3 +244,9 @@ D:\University\3_course\desctop_1\client\YouAre\YouAre\obj\Debug\net8.0-windows\r
 D:\University\3_course\desctop_1\client\YouAre\YouAre\obj\Debug\net8.0-windows\YouAre.pdb
 D:\University\3_course\desctop_1\client\YouAre\YouAre\obj\Debug\net8.0-windows\YouAre.genruntimeconfig.cache
 D:\University\3_course\desctop_1\client\YouAre\YouAre\obj\Debug\net8.0-windows\ref\YouAre.dll
+D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\CreatePostPopup.g.cs
+D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\EditAvaPopup.g.cs
+D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\CreatePostPopup.baml
+D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\EditAvaPopup.baml
+D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Dialog.g.cs
+D:\University\3_course\desctop_1\UR\client\YouAre\YouAre\obj\Debug\net8.0-windows\MVVM\View\Subviews\Dialog.baml

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "hoNe4EXq1aoq/lbgCi5wTehSWMcNMnxLK06PCPMIVos=",
+  "Hash": "2AMV7ZXXzULyJoaTO4jERqSe26MohoLUhVwE0MfVK20=",
   "Source": "YouAre-WebEnd.AppHost",
   "BasePath": "_content/YouAre-WebEnd.AppHost",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\University\\3_course\\desctop_1\\Server\\YouAre.API\\YouAre.API.csproj",
+      "Identity": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre.API\\YouAre.API.csproj",
       "Version": 2,
       "Source": "YouAre.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -5227,10 +5227,10 @@
       "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.0.0-preview.2\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
     },
     {
-      "Identity": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\obj\\Debug\\net8.0\\jsmodules\\jsmodules.build.manifest.json",
+      "Identity": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\obj\\Debug\\net8.0\\jsmodules\\jsmodules.build.manifest.json",
       "SourceId": "YouAre-WebEnd.AppHost",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\University\\3_course\\desctop_1\\Server\\YouAre-WebEnd.AppHost\\obj\\Debug\\net8.0\\jsmodules\\",
+      "ContentRoot": "D:\\University\\3_course\\desctop_1\\UR\\Server\\YouAre-WebEnd.AppHost\\obj\\Debug\\net8.0\\jsmodules\\",
       "BasePath": "_content/YouAre-WebEnd.AppHost",
       "RelativePath": "YouAre-WebEnd.AppHost.modules.json",
       "AssetKind": "Build",
